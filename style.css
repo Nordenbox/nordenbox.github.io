@@ -144,6 +144,38 @@ main,
   font-size: 15px;
 }
 
+/* 首页四大板块区域 */
+.home-section {
+  border-top: 1px solid #ddd;
+  padding-top: 18px;
+  margin-top: 18px;
+}
+
+.home-section-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 18px;
+  margin: 0 0 6px;
+}
+
+.home-section-title a {
+  text-decoration: none;
+}
+
+.home-section-title a:hover {
+  text-decoration: underline;
+}
+
+.home-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.home-list li + li {
+  margin-top: 4px;
+}
+
 /* ========== 通用页面样式（About / Projects） ========== */
 .page {
   max-width: 720px;

@@ -3,76 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nordenbox</title>
-
-  <!-- Google Fonts，可不用懂，照抄就行 -->
+  <title>Nordenbox · Home</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Serif+4:wght@400;500;600&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- 统一的头部 -->
 <header class="site-header">
   <div class="masthead">
     <h1 class="site-title">NORDENBOX</h1>
-    <p class="site-subtitle">Essays · Fiction · Notes</p>
   </div>
 
   <nav class="site-nav">
-    <a href="index.html">Home</a>
+    <a href="home.html">Home</a>
     <span class="dot">·</span>
-    <a href="about.html">About</a>
+    <a href="essays.html">Essays</a>
+    <span class="dot">·</span>
+    <a href="fictions.html">Fictions</a>
+    <span class="dot">·</span>
+    <a href="podcasts.html">Podcasts</a>
     <span class="dot">·</span>
     <a href="projects.html">Projects</a>
   </nav>
 </header>
 
 <main>
+  <!-- 顶部一个主推荐，可以随便改 -->
   <section class="hero-article">
-    <p class="section-label">From the notebook</p>
-    <h2 class="hero-title">Waiting at the Desert Station</h2>
+    <p class="section-label">Latest</p>
+    <h2 class="hero-title">To My Dearest You 写给最亲爱的你</h2>
     <p class="hero-dek">
-      A traveler returns to an abandoned railway in search of the younger self who never left.
-      This is a story about delay, unfinished endings, and the stubborn weight of hope.
+      乘坐公共汽车穿行在熟悉的道路上。这些道你是熟悉的。不过昔日僻静的小道，充满女贞花的小道，已经不复存在。你曾漫步这条小路上，谈论着一些虚无缥缈的人生理想和不知道哪里听来的琐事。
+她笑着，不紧不慢的听。似乎她对这个话题有一点点不耐烦，但你没有察觉出来。不过这也并不一定。沿着这条小道往前走，是小河的河岸。走过河岸，往右转，就是一个大街。大街边就是她住的公寓楼。
+一般说来，你并不跟她回家。你们总是在河岸边分手。不知道是几月，天气是暖和的，橘红色的霞光照耀在天边。城市西部的楼群构建出黑色的天际线。
+你们有时候手拉手，这是你们亲密程度的一种标准。如果能彼此手牵手走路，就是表示这一天非常的幸福。
     </p>
-    <p class="hero-meta">By Deng · Ongoing</p>
+    <p class="hero-meta">Fiction fragment · From <a href="fictions.html">Fictions</a></p>
   </section>
 
-  <section class="article-list">
-    <p class="section-label">Latest entries</p>
+  <!-- 四个板块入口 + 最近更新列表 -->
 
-    <article class="article-item">
-      <h3><a href="#">Fragments from “The Golden Fleece”</a></h3>
-      <p class="article-meta">Novel notes · 李大维、谢凯旋与失败的爱情实验</p>
-      <p class="article-excerpt">
-        在纽约，爱情与交易像两条平行的街道，他始终走在错误的那一条上。
-        这是一些散乱的片段，关于羞耻、撤退，以及把幸福亲手拆毁的那一刻。
-      </p>
-    </article>
+  <section class="home-section">
+    <h3 class="home-section-title"><a href="essays.html">Essays</a></h3>
+    <ul class="home-list">
+      <li><a href="#">One Battle After Another</a> – 一战再战</li>
+      <li><a href="#">A Twenty-Seven-Year Awaits Me and Journey Goes On</a> - 最终幻想 VII Remake Rebirth 回顾</li>
+    </ul>
+  </section>
 
-    <article class="article-item">
-      <h3><a href="#">On AI, Law, and the Desire for a New Scripture</a></h3>
-      <p class="article-meta">Essay · Why people might obey a machine more than a god.</p>
-      <p class="article-excerpt">
-        我们并不真的在寻找更好的法律，而是在寻找一个可以心甘情愿臣服的对象。
-        摩西从山上下来的石版，只是某种“非人意志”的早期版本。
-      </p>
-    </article>
+  <section class="home-section">
+    <h3 class="home-section-title"><a href="fictions.html">Fictions</a></h3>
+    <ul class="home-list">
+      <li><a href="fiction-golden-fleece.html">The Golden Fleece </a> – ·金羊毛· 一个中国商人的历史</li>
+      <li><a href="#">Icarus's Fall</a> – 伊卡洛斯的坠落 ·诺斯替主义，核聚变。</li>
+    </ul>
+  </section>
 
-    <article class="article-item">
-      <h3><a href="#">Notes on Misogyny, Preference, and Quiet Women</a></h3>
-      <p class="article-meta">Notes · Personal psychology & cinema.</p>
-      <p class="article-excerpt">
-        我喜欢和说话清晰、冷静的男人合作，却对某些类型的女性本能退缩。
-        这不是一句“我有点厌女”能解释的事，更像一条漫长的防御线。
-      </p>
-    </article>
+  <section class="home-section">
+    <h3 class="home-section-title"><a href="podcasts.html">Podcasts</a></h3>
+    <ul class="home-list">
+      <li><a href="#">Dublin, Joyce, and The Dead</a> 乔伊斯的都柏林人小说集中的两篇</li>
+      <li><a href="#">Sherlock and Watson</a> 福尔摩斯与华生</li>
+    </ul>
+  </section>
 
+  <section class="home-section">
+    <h3 class="home-section-title"><a href="projects.html">Projects</a></h3>
+    <ul class="home-list">
+      <li><a href="projects.html">“Hider vs Seeker” </a>· 一个2D的 AI 自动捉迷藏游戏·基于 Godot 开发</li>
+      <li><a href="projects.html">Psalm of the Endless Azure </a> 无尽之蓝· RPG 游戏开发文档</li>
+      <li><a href="projects.html">《SULTERS》游戏创意开发文档 </a> </li>
+    </ul>
   </section>
 </main>
 
 <footer class="site-footer">
-  <p>© 2025 Nordenbox · Built by hand · Hosted on GitHub Pages</p>
+  <p>© 2025 Nordenbox</p>
 </footer>
 
 </body>
