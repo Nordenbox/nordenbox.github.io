@@ -156,7 +156,13 @@ main,
   font-size: 20px;
   margin: 0 0 6px;
 }
-
+/* Essay list item titles */
+.essay-entry h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 24px 0 6px;   /* 上下多一点空隙，看起来像一个小标题块 */
+}
 .article-item h3 a {
   color: #222;
   text-decoration: none;
@@ -314,6 +320,16 @@ a {
 
 /* ========== Item Title（列表条目标题）========== */
 .item-title,
+
+/* 强制统一 essay 页面条目标题 */
+.essay-entry h3.item-title {
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin: 1.4em 0 0.4em;
+  color: #1f2a44;
+}
 .article-item h3,
 .home-list li a,
 .fiction-list li a,
