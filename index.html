@@ -1,56 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome</title>
-    <style>
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          sans-serif;
-        background: linear-gradient(135deg, #f6f9fc, #d9e8ff);
-        color: #1f2a44;
-        text-align: center;
-      }
 
-      h1 {
-        font-size: 3rem;
-        margin-bottom: 0.5rem;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      background: linear-gradient(135deg, #f6f9fc, #d9e8ff);
+      color: #1f2a44;
+      text-align: center;
+    }
 
-      p {
-        font-size: 1.25rem;
-        margin: 0 0 2rem;
-        color: #4a5568;
-      }
+    .hero-img {
+      width: 500px;
+      /* 你现在约 480px，可以略放大一点 */
+      max-width: 90%;
+      border-radius: 14px;
+      /* 更柔和 */
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      /* 更 Apple */
+      margin-bottom: 1.8rem;
+    }
 
-      a.enter-btn {
-        display: inline-block;
-        padding: 0.75rem 1.5rem;
-        background: #1f2a44;
-        color: white;
-        text-decoration: none;
-        border-radius: 8px;
-        font-size: 1.1rem;
-        transition: background 0.2s;
-      }
+    h1 {
+      font-size: 3rem;
+      /* 更优雅，不那么巨大 */
+      font-weight: 300;
+      /* 更细，更像苹果 */
+      font-family: -apple-system, BlinkMacSystemFont,
+        "SF Pro Display", "Helvetica Neue", sans-serif;
+      letter-spacing: -0.5px;
+      margin-bottom: 1.2rem;
+      /* 给图片留出空间 */
+    }
 
-      a.enter-btn:hover {
-        background: #2d3a5c;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Nordenbox's Real Fantasy</h1>
-    <p>A narrative world where we can build and modify.</p>
+    p {
+      font-size: 1.25rem;
+      margin: 0 0 2rem;
+      color: #100f0f;
+    }
 
-    <!-- 进入按钮 -->
-    <a class="enter-btn" href="home.html">Enter</a>
-  </body>
+    a.enter-btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: #1f2a44;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      transition: background 0.2s;
+    }
+
+    a.enter-btn:hover {
+      background: #2d3a5c;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 标题 -->
+  <h1>
+    <p></p>Nordenbox's Real Fantasy
+  </h1>
+
+  <!-- 图片移动到标题正下方 -->
+  <img class="hero-img" src="nordenbox.png" alt="Nordenbox Illustration">
+
+  <!-- 描述文字 -->
+  <p>A narrative world where we can build and modify.</p>
+
+  <!-- 按钮 -->
+  <a class="enter-btn" href="home.html">Enter</a>
+</body>
+
 </html>
