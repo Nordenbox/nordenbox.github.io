@@ -16,6 +16,7 @@
           sans-serif;
         background: linear-gradient(135deg, #f6f9fc, #d9e8ff);
         color: #1f2a44;
+        text-align: center;
       }
 
       h1 {
@@ -25,13 +26,31 @@
 
       p {
         font-size: 1.25rem;
-        margin: 0;
+        margin: 0 0 2rem;
         color: #4a5568;
+      }
+
+      a.enter-btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: #1f2a44;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        transition: background 0.2s;
+      }
+
+      a.enter-btn:hover {
+        background: #2d3a5c;
       }
     </style>
   </head>
   <body>
     <h1>Welcome!</h1>
-    <p>A narrative world where we can build and create.</p>
+    <p>A narrative world where we can build and modify.</p>
+
+    <!-- 进入按钮 -->
+    <a class="enter-btn" href="home.html">Enter</a>
   </body>
 </html>
