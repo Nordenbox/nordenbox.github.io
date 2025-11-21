@@ -1,12 +1,28 @@
-/* ========== 全局基础 ========== */
+/* =========================================================
+   NORDENBOX — Clean Unified Stylesheet
+   Typeface: serif body + modern sans-serif headers
+   ========================================================= */
+
+/* ========== Global ========== */
 :root {
-  /* 全站统一两套字体：正文用衬线，标题/导航用无衬线（苹果风） */
+  /* serif body; sans-serif UI */
   --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text",
                "Helvetica Neue", Arial, sans-serif;
-  --font-serif: "Source Serif 4", "Playfair Display", Georgia,
-                "Times New Roman", "STSong", "Songti SC", serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman",
+                "STSong", "Songti SC", serif;
+
+  --color-text: #222;
+  --color-accent: #1f2a44;
+  --color-nav: #222;
+  --color-muted: #666;
+  --color-bg: #cec5b2;
+  --color-line: #ddd;
 }
-* {
+
+/* Reset */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -14,48 +30,47 @@ body {
   margin: 0;
   padding: 30px 16px 50px;
   font-family: var(--font-serif);
-  font-size: 17px;              /* 调大正文字号 */
-  line-height: 1.9;             /* 加大行距，中文更好读 */
-  background-color: #cec5b2;    /* 更温和的纸色 */
-  color: #222222;
-}
-/* ========== 标题基础层级（全站通用） ========== */
-h1,
-h2,
-h3 {
-  font-family: var(--font-sans);  /* 标题统一走无衬线，偏苹果感 */
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  margin: 0 0 0.6em;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--color-text);
+  background-color: var(--color-bg);
 }
 
-h1 {
-  font-size: 2rem;
-  line-height: 1.3;
-}
-
-h2 {
-  font-size: 1.5rem;
-  line-height: 1.35;
-}
-
-h3 {
-  font-size: 1.2rem;
-  line-height: 1.4;
-}
-/* 辅助类：在正文里强制用无衬线字体 */
-.text-sans {
-  font-family: var(--font-sans);
-}
-/* 控制整体宽度，避免一行太长 */
+/* Shared width */
 main,
 .site-header,
+.page,
 .site-footer {
   max-width: 720px;
   margin: 0 auto;
 }
 
-/* ========== 页眉 / 刊头 ========== */
+/* Basic typography */
+h1, h2, h3 {
+  font-weight: 500;
+  margin: 1.4em 0 0.6em;
+}
+
+p {
+  margin: 0 0 1.1em;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Utility */
+.text-sans { font-family: var(--font-sans); }
+.dot { margin: 0 4px; color: #777; }
+
+
+/* ========== Header ========== */
+
 .site-header {
   text-align: center;
   padding-top: 24px;
@@ -64,48 +79,77 @@ main,
   margin-bottom: 36px;
 }
 
-.site-title {
-  font-family: "Playfair Display", Georgia, serif;
-  letter-spacing: 0.32em;
-  font-size: 24px;
-  margin: 0;
+/* Final unified page-title */
+.site-header .page-title {
+  font-family: var(--font-sans);
+  font-size: 2.2rem;      /* ~35px */
+  font-weight: 600;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
+  color: var(--color-accent);
+  margin: 0;
+  line-height: 1.2;
 }
 
+/* Subtitle under NORDENBOX */
 .site-subtitle {
   margin: 8px 0 0;
   font-size: 12px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
+  color: var(--color-nav);
 }
 
-/* ========== 导航 ========== */
+/* Navigation */
 .site-nav {
   margin-top: 16px;
   font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+  color: var(--color-nav);
 }
 
 .site-nav a {
-  text-decoration: none;
-  color: #222;
+  color: var(--color-nav);
 }
 
-.site-nav a:hover {
+.site-nav a.active {
   text-decoration: underline;
 }
 
 .site-nav .dot {
   margin: 0 6px;
-  color: #777;
 }
 
-.site-nav .active {
-  text-decoration: underline;
+
+/* ========== Page Layout ========== */
+
+.page {
+  margin-top: 32px;
 }
 
-/* ========== 小标签 / section label ========== */
+.lead {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: var(--color-text);
+}
+
+
+/* ========== Section Titles ========== */
+
+.section-title {
+  font-family: var(--font-sans);
+  font-size: 1.6rem;      /* ~26px */
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin: 2.2em 0 0.8em;
+  line-height: 1.3;
+  color: var(--color-accent);
+}
+
+/* Tags in homepage */
 .section-label {
   font-size: 11px;
   letter-spacing: 0.16em;
@@ -114,230 +158,66 @@ main,
   margin-bottom: 6px;
 }
 
-/* ========== 首页主打文章（hero） ========== */
-.hero-article {
-  margin-top: 32px;
-  margin-bottom: 40px;
+
+/* ========== Item Titles (Essays/Fictions/Podcasts/etc.) ========== */
+
+.item-title,
+.article-item h3,
+.project h3,
+.essay-entry h3,
+.podcast-episode h3 {
+  font-family: var(--font-sans);
+  font-size: 1.2rem;      /* ~19px */
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--color-accent);
+  margin: 1.4em 0 0.4em;
 }
 
-.hero-title {
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 26px;
-  font-weight: 600;
-  margin: 6px 0 12px;
+.essay-entry h3.item-title {
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--color-accent);
 }
 
-.hero-dek {
-  font-size: 15px;
-  margin: 0 0 10px;
-}
 
-.hero-meta {
-  font-size: 12px;
-  color: #666;
-}
+/* ========== Lists / Items (Home + Essays + Podcasts + Projects) ========== */
 
-/* ========== 首页文章列表 ========== */
-.article-list {
-  margin-top: 8px;
-}
-
-.article-item {
-  padding: 20px 0 22px;
-  border-top: 1px solid #ddd;
+.article-item,
+.project,
+.essay-entry,
+.podcast-episode {
+  border-top: 1px solid var(--color-line);
+  padding-top: 18px;
+  margin-top: 18px;
 }
 
 .article-item:last-child {
-  border-bottom: 1px solid #ddd;
-}
-
-.article-item h3 {
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 20px;
-  margin: 0 0 6px;
-}
-/* Essay list item titles */
-.essay-entry h3 {
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 20px;
-  font-weight: 600;
-  margin: 24px 0 6px;   /* 上下多一点空隙，看起来像一个小标题块 */
-}
-.article-item h3 a {
-  color: #222;
-  text-decoration: none;
-}
-
-.article-item h3 a:hover {
-  text-decoration: underline;
-}
-
-.article-meta {
-  font-size: 12px;
-  color: #777;
-  margin: 0 0 6px;
-}
-
-.article-excerpt {
-  margin: 0;
-  font-size: 15px;
-}
-
-/* 首页四大板块区域 */
-.home-section {
-  border-top: 1px solid #ddd;
-  padding-top: 18px;
-  margin-top: 18px;
-}
-
-.home-section-title {
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 18px;
-  margin: 0 0 6px;
-}
-
-.home-section-title a {
-  text-decoration: none;
-}
-
-.home-section-title a:hover {
-  text-decoration: underline;
-}
-
-.home-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 15px;
-}
-
-.home-list li + li {
-  margin-top: 4px;
-}
-
-/* ========== 通用页面样式（About / Projects） ========== */
-.page {
-  max-width: 720px;
-  margin: 0 auto;
-  margin-top: 32px;
-}
-
-.page-title {
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-/* 首段改成“重点段落”，不再首字下沉 */
-.lead {
-  font-size: 17px;
-  font-weight: 500;
-  margin-top: 0;
-  margin-bottom: 18px;
-}
-
-/* 移除首字下沉，让中文看起来不要那么奇怪 */
-/* .lead::first-letter { ... } 整段干脆不要 */
-
-/* 正文段落 */
-.page p {
-  margin: 0 0 14px;
-}
-
-/* ========== Projects 页面里的项目块 ========== */
-.project {
-  border-top: 1px solid #ddd;
-  padding-top: 18px;
-  margin-top: 18px;
-}
-
-.project h3 {
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 20px;
-  margin: 0 0 6px;
+  border-bottom: 1px solid var(--color-line);
 }
 
 .project-tagline {
   font-size: 13px;
-  color: #666;
+  color: var(--color-muted);
   margin: 0 0 8px;
 }
 
-/* ========== 页脚 ========== */
+.meta,
+.hero-meta {
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+
+/* ========== Footer ========== */
+
 .site-footer {
   text-align: center;
   font-size: 12px;
   color: #777;
   padding-top: 20px;
   margin-top: 40px;
-  border-top: 1px solid #ddd;
-}
-
-/* 链接整体默认跟正文同色 */
-a {
-  color: inherit;
-}
-
-/* ========== 小屏幕优化 ========== */
-@media (max-width: 600px) {
-  body {
-    padding: 20px 14px 36px;
-    font-size: 16px;
-  }
-
-  .site-title {
-    font-size: 22px;
-    letter-spacing: 0.26em;
-  }
-
-  .hero-title {
-    font-size: 23px;
-  }
-}
-
-/* ========== Page Title（页面主标题）========== */
-.page-title,
-.hero-title {
-  font-family: var(--font-sans);
-  font-size: 2.4rem;        /* 约 38px */
-  font-weight: 500;
-  letter-spacing: -0.03em;
-  margin: 0 0 1.2em;
-  line-height: 1.2;
-  color: #1f2a44;
-}
-
-/* ========== Section Title（段落标题）========== */
-.section-title {
-  font-family: var(--font-sans);
-  font-size: 1.6rem;        /* 约 26px */
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  margin: 2.2em 0 0.8em;
-  line-height: 1.3;
-  color: #2a334d;
-}
-
-/* ========== Item Title（列表条目标题）========== */
-.item-title,
-
-/* 强制统一 essay 页面条目标题 */
-.essay-entry h3.item-title {
-  font-family: var(--font-sans);
-  font-size: 1.2rem;
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  margin: 1.4em 0 0.4em;
-  color: #1f2a44;
-}
-.article-item h3,
-.home-list li a,
-.fiction-list li a,
-.essay-list li a,
-.podcast-list li a {
-  font-family: var(--font-sans);
-  font-size: 1.2rem;        /* 约 19px */
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  color: #1f2a44;
+  border-top: 1px solid var(--color-line);
 }
