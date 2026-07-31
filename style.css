@@ -64,6 +64,18 @@ a:hover {
   text-decoration: underline;
 }
 
+.back-link,
+.chapter-link {
+  color: #d97706;
+  font-family: var(--font-sans);
+  font-weight: 600;
+}
+
+.back-link:hover,
+.chapter-link:hover {
+  color: #b45309;
+}
+
 /* Utility */
 .text-sans { font-family: var(--font-sans); }
 .dot { margin: 0 4px; color: #777; }
