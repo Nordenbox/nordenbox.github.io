@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-fiction · Nordenbox</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600&display=swap" rel="stylesheet">
+  <meta name="description" content="Nordenbox 非虚构文章入口。">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+  <main class="page">
+    <p class="lead">正在跳转到正文页面...</p>
+    <p><a class="back-link" href="non-fiction.html">← Back to Non-fiction</a></p>
+  </main>
+  <script>
+    const routes = {
+    'sutlers-frontier-feast': 'non-fiction-sutlers-frontier-feast.html',
+    'untitled-wargame-outline': 'non-fiction-untitled-wargame-outline.html',
+    'the-secret-history-of-the-mongols': 'non-fiction-the-secret-history-of-the-mongols.html',
+    'robot-theater': 'non-fiction-robot-theater.html',
+    'milefo-and-messiah': 'non-fiction-milefo-and-messiah.html',
+    'mahadevi-panthon': 'non-fiction-mahadevi-panthon.html',
+    'feedback-and-resonance': 'non-fiction-feedback-and-resonance.html',
+    'walking-around-the-ring-road': 'non-fiction-walking-around-the-ring-road.html',
+    'empty-mountains-spiritual-rain': 'non-fiction-empty-mountains-spiritual-rain.html',
+    'asia-center': 'non-fiction-asia-center.html',
+    'asia-center-abbreviated': 'non-fiction-asia-center-abbreviated.html',
+    'clear-sky-cold-forest': 'non-fiction-clear-sky-cold-forest.html',
+    'kingdom-of-spirit': 'non-fiction-kingdom-of-spirit.html',
+    'vladivostok': 'non-fiction-vladivostok.html',
+    'pingjiang-impression': 'non-fiction-pingjiang-impression.html',
+    'yaluzangbu-canyon-notes': 'non-fiction-yaluzangbu-canyon-notes.html',
+    'qinghai-lake-rock-art': 'non-fiction-qinghai-lake-rock-art.html',
+    'dalai-birthplace-travelogue': 'non-fiction-dalai-birthplace-travelogue.html',
+    'kashgar-sketches': 'non-fiction-kashgar-sketches.html',
+    'breeze-of-ancientry': 'non-fiction-breeze-of-ancientry.html',
+    'far-east-diary': 'non-fiction-far-east-diary.html',
+    'small-town-spring-autumn': 'non-fiction-small-town-spring-autumn.html',
+    'land-beneath-eagle-wings': 'non-fiction-land-beneath-eagle-wings.html',
+    };
+    const item = new URLSearchParams(window.location.search).get('item');
+    if (item && routes[item]) {
+      window.location.replace(routes[item]);
+    } else {
+      window.location.replace('non-fiction.html');
+    }
+  </script>
+</body>
+</html>

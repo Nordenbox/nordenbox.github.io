@@ -127,6 +127,29 @@ a:hover {
   word-break: break-all;
 }
 
+.article-media {
+  margin: 0 0 1.6em;
+}
+
+.article-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 14px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.article-media.article-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.article-media.article-gallery img {
+  margin: 0;
+}
+
 /* Utility */
 .text-sans { font-family: var(--font-sans); }
 .dot { margin: 0 4px; color: #777; }
