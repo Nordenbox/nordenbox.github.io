@@ -38,6 +38,12 @@
     <main class="page">
         <h2 class="section-title">Projects</h2>
 
+        <section class="home-section">
+            <p class="section-label">Latest</p>
+            <h3 class="section-title">Recent Projects</h3>
+            <div class="latest-feed" data-latest-feed="projects" data-latest-limit="4"></div>
+        </section>
+
         <section class="project">
             <h3><a href="projects/projects-psalm.html">Psalm of the Endless Azure - 完整世界观设定文书</a></h3>
             <p class="project-tagline">岛屿冒险·人物成长·末世类型</p>
@@ -89,43 +95,9 @@
     <footer class="site-footer">
         <p>© 2026 Nordenbox</p>
     </footer>
-
-
-
-<script data-copy-guard="true">
-(() => {
-  const articleRoot = document.querySelector('main .project');
-  const sourceLink = document.querySelector('.article-source .source-link');
-  if (!articleRoot || !sourceLink) return;
-
-  document.body.classList.add('protect-copy');
-
-  const pageTitle = document.querySelector('.section-title')?.textContent?.trim() || document.title.replace(/\s*·\s*Nordenbox$/, '').trim();
-  const sourceHref = sourceLink.href || location.href;
-
-  document.addEventListener('contextmenu', (event) => {
-    if (event.target.closest('.project, .article-source')) {
-      event.preventDefault();
-    }
-  });
-
-  document.addEventListener('copy', (event) => {
-    const selection = window.getSelection()?.toString().trim();
-    if (!selection) return;
-
-    const trailer = '\n\nSource: ' + pageTitle + '\n' + sourceHref;
-    event.clipboardData.setData('text/plain', selection + trailer);
-    event.preventDefault();
-  });
-
-  document.addEventListener('keydown', (event) => {
-    const key = event.key.toLowerCase();
-    if ((event.ctrlKey || event.metaKey) && (key === 's' || key === 'p')) {
-      event.preventDefault();
-    }
-  });
-})();
-</script>
+<script defer src="content-index.js"></script>
+<script defer src="site-feed.js"></script>
+<script defer src="article-guard.js"></script>
 
 </body>
 

@@ -39,83 +39,16 @@
     它们共享一个松散的叙事宇宙，但各自独立成立。
   </p>
 
-    <!-- 金羊毛 -->
-  <section class="project">
-    <h3>
-      <a href="fictions/maiden-tiger/fiction-maiden-tiger.html">Maiden & Tiger · 少女与虎</a>
-    </h3>
-    <p class="project-tagline">一个女孩子的南亚旅行</p>
-    <p>
-    那是关于一只孟加拉虎的记忆，也是一场穿越欲望与死亡的潮湿旅途。
-
-从尼斯慵懒的午后到哈德逊湾冰冷的密室，潦倒的作家被从未谋面的姑妈召唤，记录一段隐秘的家族往事。
-    </p>
-    <p>线索最终指向缅甸丛林深处的“娜迦”——一个被疯癫富豪、隐秘医生与流亡者占据的迷幻龙谷。
-
-在这里，时间失去意义，暴雨冲刷着水泥废墟与肉体的狂欢。当笼中的猛兽被释放，当爱欲在腐烂的气息中升腾，少女终于发现，自己正一步步走进那个早已写好的宿命结局。在少女与虎的对视中，究竟谁是猎物，谁又是救赎？
-    </p>
-  </section>
-  <!-- 金羊毛 -->
-  <section class="project">
-    <h3>
-      <a href="fictions/golden-fleece/fiction-golden-fleece.html">The Golden Fleece · 金羊毛</a>
-    </h3>
-    <p class="project-tagline">一个中国商人的历史 · Uruguay, Shanghai, New York</p>
-    <p>
-      讲述一位出身普通的中国商人，在全球化浪潮与黑帮资本夹缝中一路浮沉的故事。
-      从乌拉圭的羊毛与鱼翅生意，到上海工厂建设，再到纽约的情感与信仰崩塌，
-      他不断在“成功神话”和“自我毁灭”的边界上往返。
-    </p>
-    <p>
-      主题集中在羞耻感、现代性焦虑、爱情的失败，以及人在权力与亲密关系之间做出的
-      懦弱选择。小说仍在连载中，这里会陆续补完章节索引与简要梗概。
-    </p>
+  <section class="home-section">
+    <p class="section-label">Latest</p>
+    <h3 class="section-title">Recent Fictions</h3>
+    <div class="latest-feed" data-latest-feed="fictions" data-latest-limit="4"></div>
   </section>
 
-  <!-- 伊卡洛斯的坠落 -->
-  <section class="project">
-    <h3>
-      <a href="fictions/icarus/fiction-icarussfall.html">Icarus's Fall · 伊卡洛斯的坠落</a>
-    </h3>
-    <p class="project-tagline">诺斯替主义 · 核聚变 · 一个时代的坠落姿势</p>
-    <p>
-      以暗杀核聚变专家的阴谋为开端，追踪现代诺斯替主义教派与技术乌托邦之间的暧昧同谋。
-      主角在阴谋调查中不断遭遇“知识即救赎”的幻觉，同时逐渐意识到，
-      自己也在享受站在世界崩塌边缘的快感。
-    </p>
-    <p>
-      这是一个关于“我们为什么甘愿被拯救”、以及“拯救欲如何伪装成爱”的故事。
-      目前处于设定与碎片阶段，之后会开放章节索引与阅读入口。
-    </p>
-  </section>
-
-  <section class="project">
-    <h3>
-      <a href="fictions/the-flame-and-bouquet.html">The Flame and Bouquet</a>
-    </h3>
-    <p class="project-tagline">Chapter 1 · Fiction</p>
-    <p>
-      A cold mountain inn, a cup of mead, and a journey that begins in the fog.
-    </p>
-    <p>
-      This is a self-contained fiction chapter with a strong opening atmosphere, so it sits better beside the site’s narrative work than inside essays.
-    </p>
-  </section>
-
-  <!-- 短篇 / 单篇合集 -->
-  <section class="project">
-    <h3>
-      <a href="razzmatazz/index.html">Razzmatazz</a>
-    </h3>
-    <p class="project-tagline">短篇与单篇 · 实验性叙事</p>
-    <p>
-      收录一些篇幅较短的小说：有的只是某个长篇世界观的侧面切片，
-      有的本身就是一次性完成的故事实验。它们可能会在不同城市、不同时代
-      穿插出现，但大致遵循同一套关于失败、逃离与“活下去是否值得”的问题意识。
-    </p>
-    <p>
-      未来如果有适合独立成集的短篇系列，会从这里拆分出去，发展成新的长篇或剧本项目。
-    </p>
+  <section class="home-section">
+    <p class="section-label">All Entries</p>
+    <h3 class="section-title">Everything in Fictions</h3>
+    <div class="latest-feed" data-all-feed="fictions" data-all-offset="4"></div>
   </section>
 
 </main>
@@ -123,43 +56,9 @@
 <footer class="site-footer">
   <p>© 2026 Nordenbox</p>
 </footer>
-
-
-
-<script data-copy-guard="true">
-(() => {
-  const articleRoot = document.querySelector('main .project');
-  const sourceLink = document.querySelector('.article-source .source-link');
-  if (!articleRoot || !sourceLink) return;
-
-  document.body.classList.add('protect-copy');
-
-  const pageTitle = document.querySelector('.section-title')?.textContent?.trim() || document.title.replace(/\s*·\s*Nordenbox$/, '').trim();
-  const sourceHref = sourceLink.href || location.href;
-
-  document.addEventListener('contextmenu', (event) => {
-    if (event.target.closest('.project, .article-source')) {
-      event.preventDefault();
-    }
-  });
-
-  document.addEventListener('copy', (event) => {
-    const selection = window.getSelection()?.toString().trim();
-    if (!selection) return;
-
-    const trailer = '\n\nSource: ' + pageTitle + '\n' + sourceHref;
-    event.clipboardData.setData('text/plain', selection + trailer);
-    event.preventDefault();
-  });
-
-  document.addEventListener('keydown', (event) => {
-    const key = event.key.toLowerCase();
-    if ((event.ctrlKey || event.metaKey) && (key === 's' || key === 'p')) {
-      event.preventDefault();
-    }
-  });
-})();
-</script>
+<script defer src="content-index.js"></script>
+<script defer src="site-feed.js"></script>
+<script defer src="article-guard.js"></script>
 
 </body>
 </html>

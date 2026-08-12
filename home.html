@@ -37,17 +37,16 @@
 </header>
 
 <main>
-  <!-- 顶部一个主推荐，可以随便改 -->
-  <section class="hero-article">
+  <section class="home-section">
+    <p class="section-label">Featured</p>
+    <h2 class="section-title">Featured Story</h2>
+    <div class="latest-feed" data-featured-feed="all" data-featured-offset="0"></div>
+  </section>
+
+  <section class="home-section">
     <p class="section-label">Latest</p>
-    <h2 class="section-title">To My Dearest You 写给最亲爱的你</h2>
-    <p class="hero-dek">
-      乘坐公共汽车穿行在熟悉的道路上。这些道你是熟悉的。不过昔日僻静的小道，充满女贞花的小道，已经不复存在。你曾漫步这条小路上，谈论着一些虚无缥缈的人生理想和不知道哪里听来的琐事。
-她笑着，不紧不慢的听。似乎她对这个话题有一点点不耐烦，但你没有察觉出来。不过这也并不一定。沿着这条小道往前走，是小河的河岸。走过河岸，往右转，就是一个大街。大街边就是她住的公寓楼。
-一般说来，你并不跟她回家。你们总是在河岸边分手。不知道是几月，天气是暖和的，橘红色的霞光照耀在天边。城市西部的楼群构建出黑色的天际线。
-你们有时候手拉手，这是你们亲密程度的一种标准。如果能彼此手牵手走路，就是表示这一天非常的幸福。
-    </p>
-    <p class="hero-meta">Fiction fragment · From <a href="fictions.html">Fictions</a></p>
+    <h2 class="section-title">Recent Updates</h2>
+    <div class="latest-feed" data-latest-feed="all" data-latest-limit="4" data-latest-offset="1"></div>
   </section>
 
   <!-- 四个板块入口 + 最近更新列表 -->
@@ -97,6 +96,8 @@
 <footer class="site-footer">
   <p>© 2026 Nordenbox</p>
 </footer>
+<script defer src="content-index.js"></script>
+<script defer src="site-feed.js"></script>
 
 </body>
 </html>

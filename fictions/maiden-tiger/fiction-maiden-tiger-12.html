@@ -120,43 +120,7 @@
   <footer class="site-footer">
     <p>© 2026 Nordenbox</p>
   </footer>
-
-
-
-<script data-copy-guard="true">
-(() => {
-  const articleRoot = document.querySelector('main .project');
-  const sourceLink = document.querySelector('.article-source .source-link');
-  if (!articleRoot || !sourceLink) return;
-
-  document.body.classList.add('protect-copy');
-
-  const pageTitle = document.querySelector('.section-title')?.textContent?.trim() || document.title.replace(/\s*·\s*Nordenbox$/, '').trim();
-  const sourceHref = sourceLink.href || location.href;
-
-  document.addEventListener('contextmenu', (event) => {
-    if (event.target.closest('.project, .article-source')) {
-      event.preventDefault();
-    }
-  });
-
-  document.addEventListener('copy', (event) => {
-    const selection = window.getSelection()?.toString().trim();
-    if (!selection) return;
-
-    const trailer = '\n\nSource: ' + pageTitle + '\n' + sourceHref;
-    event.clipboardData.setData('text/plain', selection + trailer);
-    event.preventDefault();
-  });
-
-  document.addEventListener('keydown', (event) => {
-    const key = event.key.toLowerCase();
-    if ((event.ctrlKey || event.metaKey) && (key === 's' || key === 'p')) {
-      event.preventDefault();
-    }
-  });
-})();
-</script>
+<script defer src="../../article-guard.js"></script>
 
 </body>
 </html>

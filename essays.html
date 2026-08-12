@@ -35,6 +35,18 @@
   <h2 class="section-title">Essays</h2>
   <p class="lead">进入这里后，先选一个方向：文艺评论，或者非虚构。</p>
 
+  <section class="home-section">
+    <p class="section-label">Latest</p>
+    <h3 class="section-title">Recent Essays</h3>
+    <div class="latest-feed" data-latest-feed="essays" data-latest-limit="4"></div>
+  </section>
+
+  <section class="home-section">
+    <p class="section-label">All Entries</p>
+    <h3 class="section-title">Everything in Essays</h3>
+    <div class="latest-feed" data-all-feed="essays" data-all-offset="4"></div>
+  </section>
+
   <section class="essay-list">
     <article class="essay-entry">
       <h3 class="item-title"><a href="art-review.html">Art Review · 文艺评论</a></h3>
@@ -65,6 +77,8 @@
 <footer class="site-footer">
   <p>© 2026 Nordenbox</p>
 </footer>
+<script defer src="content-index.js"></script>
+<script defer src="site-feed.js"></script>
 
 </body>
 </html>
