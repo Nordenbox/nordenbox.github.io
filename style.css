@@ -55,6 +55,11 @@ p {
   margin: 0 0 1.1em;
 }
 
+.source-blank {
+  height: 1.1em;
+  margin: 0;
+}
+
 a {
   color: var(--color-accent);
   text-decoration: none;

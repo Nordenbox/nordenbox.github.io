@@ -1,6 +1,142 @@
 window.NORDENBOX_CONTENT_INDEX = {
   "all": [
     {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-14.html",
+      "excerpt": "第十四章",
+      "date": "2026-09-09T15:21:13.684Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-15.html",
+      "excerpt": "第十五章",
+      "date": "2026-09-09T15:21:13.684Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-10.html",
+      "excerpt": "第十章",
+      "date": "2026-09-09T15:21:13.683Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-11.html",
+      "excerpt": "第十一章",
+      "date": "2026-09-09T15:21:13.683Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-12.html",
+      "excerpt": "第十二章",
+      "date": "2026-09-09T15:21:13.683Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-13.html",
+      "excerpt": "第十三章",
+      "date": "2026-09-09T15:21:13.683Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-9.html",
+      "excerpt": "第九章",
+      "date": "2026-09-09T15:21:13.683Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-8.html",
+      "excerpt": "第八章",
+      "date": "2026-09-09T15:21:13.681Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-7.html",
+      "excerpt": "第七章",
+      "date": "2026-09-09T15:21:13.680Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-4.html",
+      "excerpt": "第四章",
+      "date": "2026-09-09T15:21:13.679Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-5.html",
+      "excerpt": "第五章",
+      "date": "2026-09-09T15:21:13.679Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-6.html",
+      "excerpt": "第六章",
+      "date": "2026-09-09T15:21:13.679Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-2.html",
+      "excerpt": "第二章",
+      "date": "2026-09-09T15:21:13.678Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-3.html",
+      "excerpt": "第三章",
+      "date": "2026-09-09T15:21:13.678Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-1.html",
+      "excerpt": "第一章",
+      "date": "2026-09-09T15:21:13.676Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "The Golden Fleece · 金羊毛 · 楔子",
+      "href": "fictions/golden-fleece/fiction-golden-fleece-0.html",
+      "excerpt": "李大维坐在民事三庭的长廊上，看着空荡荡的走廊。他穿得很周正，打着领带，通常他并不这么穿着，他喜欢穿很随意的衣服，尽管极其昂贵，但是外人根本看不出来。但他喜欢这样，他始终是一个北京人，不习惯南方人的刻意穿着。 走廊的尽头是一个落地窗，外面是北京冬日的阳光，阳光懒洋洋的。李大维看了看表，离开庭时间还有半个多小时。可是自己的妻子还没有来，也许她不敢来见他。她其实从一开始就没打算来。",
+      "date": "2026-09-09T15:21:13.675Z"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "The Golden Fleece · 金羊毛",
+      "href": "fictions/golden-fleece/fiction-golden-fleece.html",
+      "excerpt": "一个中国商人的历史，从乌拉圭的羊毛与鱼翅，到上海的工厂，到纽约的爱情和自我毁灭。 这是一部关于羞耻、野心、现代性、失败与“怎么活下去”的长篇小说。",
+      "date": "2026-09-09T15:17:00.662Z"
+    },
+    {
       "key": "razzmatazz",
       "label": "Razzmatazz",
       "title": "Travelling Writing",
@@ -707,90 +843,10 @@ window.NORDENBOX_CONTENT_INDEX = {
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "The Golden Fleece · 金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece.html",
-      "excerpt": "一个中国商人的历史，从乌拉圭的羊毛与鱼翅，到上海的工厂，到纽约的爱情和自我毁灭。 这是一部关于羞耻、野心、现代性、失败与“怎么活下去”的长篇小说。",
-      "date": "2026-08-12T14:02:58.407Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
       "title": "Icarus's Fall",
       "href": "fictions/icarus/fiction-icarussfall-0.html",
       "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
       "date": "2026-08-12T14:02:58.407Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-9.html",
-      "excerpt": "第九章 康飞虎对李大维开始嫉妒了。吴建带他去见周国祯，还有重量级的几个大人物，却不叫他。",
-      "date": "2026-08-12T14:02:58.406Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-8.html",
-      "excerpt": "第八章 &nbsp;",
-      "date": "2026-08-12T14:02:58.403Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-6.html",
-      "excerpt": "第六章 冬日的阳光萎缩下去，导致民三庭里面一片昏暗，不得不打开了日光灯，使得一切都白森森的。",
-      "date": "2026-08-12T14:02:58.402Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-7.html",
-      "excerpt": "第七章 工厂位于湖州太湖边的一座山谷里，靠近一个叫黄龙宫的小村子。这里原来就有一个纺织厂，后来老板跑路了，留下来一个倒塌的厂房。按照康飞虎的解释，因为刚跑路没多久，政府还没来得及处理，所以这里的土地规划性质没变，少跑一些手续。",
-      "date": "2026-08-12T14:02:58.402Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-5.html",
-      "excerpt": "第五章 飞机的头等舱里，灯光昏暗。窗外的天空闪烁着黎明的光芒。想了想，自己有两年没有回去了。原本他是抱着在外面尽量闯荡，不再回去的想法，现在想想就好像离家出走的孩子那么幼稚。",
-      "date": "2026-08-12T14:02:58.401Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-13.html",
-      "excerpt": "第十三章",
-      "date": "2026-08-12T14:02:58.399Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-12.html",
-      "excerpt": "第十二章",
-      "date": "2026-08-12T14:02:58.398Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-10.html",
-      "excerpt": "第十章",
-      "date": "2026-08-12T14:02:58.397Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-11.html",
-      "excerpt": "第十一章",
-      "date": "2026-08-12T14:02:58.397Z"
     },
     {
       "key": "essays",
@@ -847,46 +903,6 @@ window.NORDENBOX_CONTENT_INDEX = {
       "href": "essays/a-twenty-seven-year-awaits-me-and-journey-goes-on.html",
       "excerpt": "A long-distance love letter to Final Fantasy VII Rebirth, and to the 27 years that led back to it.",
       "date": "2026-08-12T14:02:58.392Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "0 · 金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-0.html",
-      "excerpt": "",
-      "date": "2026-08-03T19:24:23.094Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "第四章 · 金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-4.html",
-      "excerpt": "",
-      "date": "2026-08-03T19:24:23.094Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "第一章 · 金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-1.html",
-      "excerpt": "",
-      "date": "2026-08-03T19:20:13.503Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "第二章 · 金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-2.html",
-      "excerpt": "",
-      "date": "2026-08-03T19:20:13.501Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "第三章 · 金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-3.html",
-      "excerpt": "",
-      "date": "2026-08-03T19:20:13.501Z"
     },
     {
       "key": "razzmatazz",
@@ -971,6 +987,142 @@ window.NORDENBOX_CONTENT_INDEX = {
       }
     ],
     "fictions": [
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-14.html",
+        "excerpt": "第十四章",
+        "date": "2026-09-09T15:21:13.684Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-15.html",
+        "excerpt": "第十五章",
+        "date": "2026-09-09T15:21:13.684Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-10.html",
+        "excerpt": "第十章",
+        "date": "2026-09-09T15:21:13.683Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-11.html",
+        "excerpt": "第十一章",
+        "date": "2026-09-09T15:21:13.683Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-12.html",
+        "excerpt": "第十二章",
+        "date": "2026-09-09T15:21:13.683Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-13.html",
+        "excerpt": "第十三章",
+        "date": "2026-09-09T15:21:13.683Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-9.html",
+        "excerpt": "第九章",
+        "date": "2026-09-09T15:21:13.683Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-8.html",
+        "excerpt": "第八章",
+        "date": "2026-09-09T15:21:13.681Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-7.html",
+        "excerpt": "第七章",
+        "date": "2026-09-09T15:21:13.680Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-4.html",
+        "excerpt": "第四章",
+        "date": "2026-09-09T15:21:13.679Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-5.html",
+        "excerpt": "第五章",
+        "date": "2026-09-09T15:21:13.679Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-6.html",
+        "excerpt": "第六章",
+        "date": "2026-09-09T15:21:13.679Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-2.html",
+        "excerpt": "第二章",
+        "date": "2026-09-09T15:21:13.678Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-3.html",
+        "excerpt": "第三章",
+        "date": "2026-09-09T15:21:13.678Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-1.html",
+        "excerpt": "第一章",
+        "date": "2026-09-09T15:21:13.676Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "The Golden Fleece · 金羊毛 · 楔子",
+        "href": "fictions/golden-fleece/fiction-golden-fleece-0.html",
+        "excerpt": "李大维坐在民事三庭的长廊上，看着空荡荡的走廊。他穿得很周正，打着领带，通常他并不这么穿着，他喜欢穿很随意的衣服，尽管极其昂贵，但是外人根本看不出来。但他喜欢这样，他始终是一个北京人，不习惯南方人的刻意穿着。 走廊的尽头是一个落地窗，外面是北京冬日的阳光，阳光懒洋洋的。李大维看了看表，离开庭时间还有半个多小时。可是自己的妻子还没有来，也许她不敢来见他。她其实从一开始就没打算来。",
+        "date": "2026-09-09T15:21:13.675Z"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "The Golden Fleece · 金羊毛",
+        "href": "fictions/golden-fleece/fiction-golden-fleece.html",
+        "excerpt": "一个中国商人的历史，从乌拉圭的羊毛与鱼翅，到上海的工厂，到纽约的爱情和自我毁灭。 这是一部关于羞耻、野心、现代性、失败与“怎么活下去”的长篇小说。",
+        "date": "2026-09-09T15:17:00.662Z"
+      },
       {
         "key": "fictions",
         "label": "Fictions",
@@ -1350,130 +1502,10 @@ window.NORDENBOX_CONTENT_INDEX = {
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "The Golden Fleece · 金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece.html",
-        "excerpt": "一个中国商人的历史，从乌拉圭的羊毛与鱼翅，到上海的工厂，到纽约的爱情和自我毁灭。 这是一部关于羞耻、野心、现代性、失败与“怎么活下去”的长篇小说。",
-        "date": "2026-08-12T14:02:58.407Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
         "title": "Icarus's Fall",
         "href": "fictions/icarus/fiction-icarussfall-0.html",
         "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
         "date": "2026-08-12T14:02:58.407Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-9.html",
-        "excerpt": "第九章 康飞虎对李大维开始嫉妒了。吴建带他去见周国祯，还有重量级的几个大人物，却不叫他。",
-        "date": "2026-08-12T14:02:58.406Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-8.html",
-        "excerpt": "第八章 &nbsp;",
-        "date": "2026-08-12T14:02:58.403Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-6.html",
-        "excerpt": "第六章 冬日的阳光萎缩下去，导致民三庭里面一片昏暗，不得不打开了日光灯，使得一切都白森森的。",
-        "date": "2026-08-12T14:02:58.402Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-7.html",
-        "excerpt": "第七章 工厂位于湖州太湖边的一座山谷里，靠近一个叫黄龙宫的小村子。这里原来就有一个纺织厂，后来老板跑路了，留下来一个倒塌的厂房。按照康飞虎的解释，因为刚跑路没多久，政府还没来得及处理，所以这里的土地规划性质没变，少跑一些手续。",
-        "date": "2026-08-12T14:02:58.402Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-5.html",
-        "excerpt": "第五章 飞机的头等舱里，灯光昏暗。窗外的天空闪烁着黎明的光芒。想了想，自己有两年没有回去了。原本他是抱着在外面尽量闯荡，不再回去的想法，现在想想就好像离家出走的孩子那么幼稚。",
-        "date": "2026-08-12T14:02:58.401Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-13.html",
-        "excerpt": "第十三章",
-        "date": "2026-08-12T14:02:58.399Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-12.html",
-        "excerpt": "第十二章",
-        "date": "2026-08-12T14:02:58.398Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-10.html",
-        "excerpt": "第十章",
-        "date": "2026-08-12T14:02:58.397Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-11.html",
-        "excerpt": "第十一章",
-        "date": "2026-08-12T14:02:58.397Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "0 · 金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-0.html",
-        "excerpt": "",
-        "date": "2026-08-03T19:24:23.094Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "第四章 · 金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-4.html",
-        "excerpt": "",
-        "date": "2026-08-03T19:24:23.094Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "第一章 · 金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-1.html",
-        "excerpt": "",
-        "date": "2026-08-03T19:20:13.503Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "第二章 · 金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-2.html",
-        "excerpt": "",
-        "date": "2026-08-03T19:20:13.501Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "第三章 · 金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-3.html",
-        "excerpt": "",
-        "date": "2026-08-03T19:20:13.501Z"
       }
     ],
     "non-fiction": [
