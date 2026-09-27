@@ -3,130 +3,74 @@ window.NORDENBOX_CONTENT_INDEX = {
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-14.html",
-      "excerpt": "第十四章",
-      "date": "2026-09-09T15:21:13.684Z"
+      "title": "红尘",
+      "href": "fictions/fiction-red-dust.html",
+      "excerpt": "一部从火车站和河南小城展开的电影剧本。",
+      "date": "2026-09-27T13:48:45.266Z"
     },
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-15.html",
-      "excerpt": "第十五章",
-      "date": "2026-09-09T15:21:13.684Z"
+      "title": "战警之无悔",
+      "href": "fictions/fiction-police-no-regrets.html",
+      "excerpt": "一部以特警行动为背景的电影剧本。",
+      "date": "2026-09-27T13:48:45.260Z"
     },
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-10.html",
-      "excerpt": "第十章",
-      "date": "2026-09-09T15:21:13.683Z"
+      "title": "Shame",
+      "href": "fictions/fiction-shame.html",
+      "excerpt": "A screenplay about a girl, memory, and the private violence hidden inside an ordinary home.",
+      "date": "2026-09-27T13:48:45.256Z"
     },
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-11.html",
-      "excerpt": "第十一章",
-      "date": "2026-09-09T15:21:13.683Z"
+      "title": "中央饭店",
+      "href": "fictions/fiction-central-hotel.html",
+      "excerpt": "电影剧本。北京，2016 年冬天，一座高级妇产医院和一间中央饭店。",
+      "date": "2026-09-27T13:48:45.252Z"
     },
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-12.html",
-      "excerpt": "第十二章",
-      "date": "2026-09-09T15:21:13.683Z"
+      "title": "未定名之红楼梦作品",
+      "href": "fictions/fiction-untitled-dream-of-the-red-chamber.html",
+      "excerpt": "以惜春等人物为中心，延伸红楼梦之后的故事。",
+      "date": "2026-09-27T13:48:44.130Z"
     },
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-13.html",
-      "excerpt": "第十三章",
-      "date": "2026-09-09T15:21:13.683Z"
+      "title": "三国心事",
+      "href": "fictions/fiction-three-kingdoms-reflections.html",
+      "excerpt": "从历史人物的内心出发，重新凝视乱世、权力、爱情与自我。",
+      "date": "2026-09-27T13:48:44.039Z"
     },
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-9.html",
-      "excerpt": "第九章",
-      "date": "2026-09-09T15:21:13.683Z"
+      "title": "New Republic",
+      "href": "fictions/fiction-new-republic.html",
+      "excerpt": "一部从 2041 年的海上航行展开的长篇文学作品，写希望、混乱与虚荣。",
+      "date": "2026-09-27T13:48:43.958Z"
     },
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-8.html",
-      "excerpt": "第八章",
-      "date": "2026-09-09T15:21:13.681Z"
+      "title": "Conjuring",
+      "href": "fictions/fiction-conjuring.html",
+      "excerpt": "A film treatment about a fallen mental magician who is asked to uncover a crime inside a secluded estate.",
+      "date": "2026-09-27T13:48:43.845Z"
     },
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-7.html",
-      "excerpt": "第七章",
-      "date": "2026-09-09T15:21:13.680Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-4.html",
-      "excerpt": "第四章",
-      "date": "2026-09-09T15:21:13.679Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-5.html",
-      "excerpt": "第五章",
-      "date": "2026-09-09T15:21:13.679Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-6.html",
-      "excerpt": "第六章",
-      "date": "2026-09-09T15:21:13.679Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-2.html",
-      "excerpt": "第二章",
-      "date": "2026-09-09T15:21:13.678Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-3.html",
-      "excerpt": "第三章",
-      "date": "2026-09-09T15:21:13.678Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "金羊毛",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-1.html",
-      "excerpt": "第一章",
-      "date": "2026-09-09T15:21:13.676Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "The Golden Fleece · 金羊毛 · 楔子",
-      "href": "fictions/golden-fleece/fiction-golden-fleece-0.html",
-      "excerpt": "李大维坐在民事三庭的长廊上，看着空荡荡的走廊。他穿得很周正，打着领带，通常他并不这么穿着，他喜欢穿很随意的衣服，尽管极其昂贵，但是外人根本看不出来。但他喜欢这样，他始终是一个北京人，不习惯南方人的刻意穿着。 走廊的尽头是一个落地窗，外面是北京冬日的阳光，阳光懒洋洋的。李大维看了看表，离开庭时间还有半个多小时。可是自己的妻子还没有来，也许她不敢来见他。她其实从一开始就没打算来。",
-      "date": "2026-09-09T15:21:13.675Z"
+      "title": "A Kill From Heaven",
+      "href": "fictions/fiction-a-kill-from-heaven.html",
+      "excerpt": "电影剧本。一个小镇、一次秘密行动，以及逐渐逼近的危险。",
+      "date": "2026-09-27T13:48:43.757Z"
     },
     {
       "key": "fictions",
@@ -483,370 +427,10 @@ window.NORDENBOX_CONTENT_INDEX = {
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-7.html",
-      "excerpt": "白色的光芒照射在街面残积的水面上，行人在水泥墙边迎着寒风站立。我已经在这里逛了三到四个小时，看着外滩的高大房屋。他们都耸立在和煦的阳光中，上海的天气和北京相比要暖和许多。 我已经从家里来到了这里，昨天和前天给我的感受如同被迅速晒干的雨水一样，快速地在我心中了无痕迹。我已经知道，在一场彻底的决裂之后，我和家里的关系将从此告一段落，他们已经拒绝再支付我的任何费用。当然，在很大程度上，是我激怒了他们---因为我害怕他们宽恕我，我故意将自己逼入绝境，这样使得我能彻底地站到纳吉的一边。",
-      "date": "2026-08-12T14:02:58.430Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-8.html",
-      "excerpt": "海面如同一锅早已平静的开水，雾气弥漫在四周，没有声音。阳光透过重重雾气照射下来，甲板热得发烫。 我站在船头，往四周看。四周都是一片亮光，无论你往何处看，都是一样，彼此没有亮度的差别，我觉得自己和船就好像身处一个摄影棚中，自己变得无比地微小，整个世界就好像一个微缩景观，自己是这个景观中的一个小小的盆景。甚至没有鸟飞过。",
-      "date": "2026-08-12T14:02:58.430Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-9.html",
-      "excerpt": "仰光港和煦的阳光慢慢地将凯照射醒来，她发现自己趴在一张发烫的铁艺桌子上已经睡着了，腋下和下巴下都是汗水，等她直起身体的时候，这些出汗的部位竟有一丝清凉。 一个星期前的大风暴，早已如同地面上被晒干的水一样，不在这一个多星期乏味的旅程中起到任何作用。左前方是一片肮脏的海滩，一些用木头建成的酒吧和杂货店就坐落在这片海滩之上。那艘贸易船正在远处卸货，船长已经不见踪影，只有一些工人在自行卸货。",
-      "date": "2026-08-12T14:02:58.430Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-3.html",
-      "excerpt": "前方是一个木板做成的屋子。浅蓝色的油漆已经全部褪色，仅存在木板的缝隙之中。门口一个铁制的椅子上，堆满了积雪。黑色的土地泥泞不堪，让人觉得害怕深陷其中。 我走上台阶，在门口摁了门铃。一阵风吹来，我才发现门并没关。门口有一张纸条贴在门板上，刚才因为有纱窗门阻挡而未能看清。",
-      "date": "2026-08-12T14:02:58.429Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-4.html",
-      "excerpt": "我被带进了一个充满蓝色花纹墙纸的房间。房间大约有十几平米的大小，除了一张床外什么也没有。一扇巨大的落地窗外是寒冷、雾气蒙蒙的哈德逊湾，海面上正在波涛汹涌。 但是屋子里面却安静地如同欧洲某个修道院宁静午后的庭院。白色，充满朦胧的光线好像掺杂着水汽一样弥漫在整个屋子里面，但是空气很干燥，屋子里面也很暖和。",
-      "date": "2026-08-12T14:02:58.429Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-5.html",
-      "excerpt": "我姓李，我出生在中国浙江的一个庞大的家族。这个家族世代都饱读诗书，出现过许多在中国近代历史上非常出名的人，他们有的是学者，有的是医生，有的是富有的商人。他们都是社会的贤达，但是他们有一条严格的家规，就是从来不去做政府的官员。因为他们相信社会在不断的变革，很多事情是把握不住的。他们相信严格的教育和严谨的家风是保障这个家族在两百年的历史中屹立不倒的唯一信条。 他们严格要求出生在这个家庭中的孩子们，每一个孩子都要接受近乎苛刻的家庭教育。每一个孩子从小就生活在众人的视野之中，无时不刻接受着长辈严厉的目光审视，不敢做任何不合规矩的事情。这个家族中所有成员家庭的财富都是共享的。如果某一家比较贫困，它是感觉不到的。因为所有的教育和购置房屋的巨大开支，都是由这个家族共同承担的。因为如此，每一个人都受到的几乎相同的教育，同时也可以培养一种责任感。这就是说，你是一个人，但是你绝对不是只属于你的一个人，你的每一步都受到了家族的帮助，那么你以后的每一个成就，也就必须反馈这个家族。",
-      "date": "2026-08-12T14:02:58.429Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-6.html",
-      "excerpt": "凯无法承受纳吉的离去给她带来的伤痛。她回到自己的宿舍，简单地收拾了自己的行装，然后直接去了机场。 但是这些伤痛之中又带着些许的甜蜜，这是一种混合着蜂蜜和伤口破裂的感觉：纳吉因为无法违抗父亲—一个给予他巨大影响的老家伙—而回到了白沙瓦，在那里去经营他们家族的医院。但是纳吉却向她保证，给他一点时间，他会回去料理好自己的家庭事务，他会和自己从来没有感情的妻子讲明白他爱上了一个亚洲女孩，并且要和她一起定居美国，经营一个属于他们的小世界。",
-      "date": "2026-08-12T14:02:58.429Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-16.html",
-      "excerpt": "躺在陌生的床上。这里是黎医生的住处，在一个河岸旁边的小楼之中。楼下是一个熙熙攘攘的街道，街上有小型卡车送来新鲜的蔬菜和一些杂货，四处充满着低声的细语和吵架声。 这里是这个小镇的西南边缘，因为靠近贸易通道，这里的气氛和小镇的核心地带以及安东的城堡相隔甚远，看上去竟然不像在同样一个地方。这是黎医生的气质。他在前一天要求我跟他一起回到他的家中，他反复保证，这只不过是为了完成一个特殊的任务，而这个任务目前并不方便明说，但是只能用这种方式来加以完成。",
-      "date": "2026-08-12T14:02:58.428Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-17.html",
-      "excerpt": "阳光在下午的时候异常灼热。这正是一日中最热的时候。但时间的流逝和黎医生选择的时间，透着一股立刻就要迎来凉意的感觉。 凯被黎医生带领，花了几块钱本地货币，乘坐了一辆内燃机三轮车，当地人对这种车辆有一种特别的叫法，类似法语的 Coucou，准备来到了小镇的边缘。在路上的时候，凯已经看见了有不少人用着不同的方式在朝着同一个目的地前进。他们彼此都知道对方，就好像铃声中匆匆奔向教室，彼此互不打量的学生。",
-      "date": "2026-08-12T14:02:58.428Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-2.html",
-      "excerpt": "从飞机里面出来，我就被一种干燥的寒冷空气弄得全无游兴。满目是低矮平房和颜色单调的超市、加油站等令人乏味的建筑。身后的一片蓝色的大海之上，翻滚着灰色的波浪，冰冷的泡沫布撒在空中，使得空气之中有一个盐的味道。 这里是加拿大哈得逊湾的一个古老的贸易港，现在已经变得毫不重要。街道因为下过雪而变得肮脏，并且我看不出街道与社区的边界，仿佛灰黑色的雪和泥土直接从天而降覆盖了整个大地。寒风吹拂着高空，虽然天气晴朗，但是我仍然觉得刺骨的寒冷。",
-      "date": "2026-08-12T14:02:58.428Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-12.html",
-      "excerpt": "Naga, 你们叫她这个名字。 每一个地方，对每一个来过这里的人来说，都会有一个名字。英国人来过这里，给这里起了一个无关痛痒的某王子的名字，但这个地方既不是海港也不是交通要道，所以崇尚贸易民族起的名字就没办法流传下来。",
-      "date": "2026-08-12T14:02:58.427Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-13.html",
-      "excerpt": "早晨略微清凉一些，沿着这个小城还没苏醒的街道行走，仿佛根本不认识这个地方。凯和米克斯行走在一个小小的街道之中，四周根本没有一个人。 凯四周望下去，一些建筑散落在这个山谷的四周。昨天晚上根本没有机会好好看看这个山谷。凯这才发现这座小城根本比她想象地要大得多。散落的建筑能够容纳相当多的人，凯内心深处计算了一下，这个山谷小城至少可以容纳好几万人，昨天她看到的不过一片声色犬马的场所，根本不是小镇的全部。米克斯告诉她，小城里面居住着很多体面的人，包括安东这个疯子，还有各种身份不明的人，他们从来不会出现在那条街道上，他们过着他们自己的生活，不久你就会见到。",
-      "date": "2026-08-12T14:02:58.427Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-14.html",
-      "excerpt": "我再一次看到米克斯的时候，他被囚禁在一个简易的木板房子里面。这所房子就在那伽小镇的市中心，一个炎热的池塘旁边。这里没有看守，但是米克斯被锁在小屋子里的一个铁杆上，席地而坐，基本不能动弹。他的脸色通红，炎热的室内气温混合着屋子外面沼泽里面翻腾上来的青草味道，使得屋子里的空气浑浊不堪，他的胳膊已经被他自己抓烂，却只是叹了一口气，似乎心中所忧愁的不是眼前这些事情。 米克斯嘴里面吐露着只言片语，声音在屋子周边徘徊，穿透了屋子，在市镇中心的街市上飘荡。他的声音很轻，如同街上泛起的尘土，被热气蒸腾到四面八方，找不到自己的归宿。街市如同往常一样，充斥着乏味的阳光，在这里，中午和下午是被刻意忽视的，存在的只有卖不掉的死鱼一样任意发臭氛围。",
-      "date": "2026-08-12T14:02:58.427Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-15.html",
-      "excerpt": "失去了米克斯，凯的行程被暂时搁置了。没有人来解释这件事情，整个娜迦小镇重新回到了极度寂静的状态，只要在黄昏没有到来之前，到处都是炎热和耀眼的白光，死气沉沉，所有人都在睡觉。没有人关心米克斯在哪里，安东和卡拉也离开这里，他们去哪里了不重要，这里的所有人都知道安东总是会定去出门，然后定期回来，和雨季旱季的交替那样准时。 凯沉睡在河边的旅馆里面，米克斯已经付了一个多月的房租，暂时不用担心任何事情。她一直在回想池塘边的那一幕。没有人强迫米克斯跳下去，一切都是米克斯自己的行为。而且凯可以断定，米克斯在跳下池塘的那一刻，她完全明白那眼神的意思。",
-      "date": "2026-08-12T14:02:58.427Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-1.html",
-      "excerpt": "窗外的鲜花因为阳光的照射而显得更加夺目，似乎香味更浓烈了一些。阳光透过两扇冲西和冲南的窗子中照射进来，砸落在一张小床上。 我躺在床上，赤身裸体。白色的床带和被子压在我的身上，我浑身溽热，但是却一动也不想动。我看着这间只有十平米的房间的屋顶，听着窗外传来的海浪声，脑子里面一片空白，能想的只有一件事情了：我本来应该昨天下午给我的编辑发一封我已经写好了我的作品的电子邮件。",
-      "date": "2026-08-12T14:02:58.426Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-10.html",
-      "excerpt": "我无法描述她的长相，因为我早已忘记，就好像烟雾一样。记住，你能记住一个人的长相，并不表示你对她有多深的感情，也许只是你记住而已。而你记不住某个人容貌，也许只是她已经融在你的血液之中。 天空被破碎的舷窗割裂成几十个小型的世界。黑色燃油从裂缝中喷射出来，在寒冷的空气中粘稠无比，很快就像病毒一样爬满了整个舷窗。",
-      "date": "2026-08-12T14:02:58.426Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "少女与虎",
-      "href": "fictions/maiden-tiger/fiction-maiden-tiger-11.html",
-      "excerpt": "那辆汽车在炎热和乏味的山道之中开了许久，只有转过一个曲折山路的时候，前方疾驰而来的山峰能给我带来一丝清凉和一片壮丽的山色。 米克斯并不想把车开得很快，他坚持要在途中休息，甚至过夜。对此我表示了一些不解和愤怒，但根本无济于事，米克斯并不在乎我的想法：我想尽快离开这个地方，前往我心目中的蓝毗尼，那片合欢树之下。米克斯每次都用极其冷淡的眼神看着远处乏味的高山，然后毫无道理地休息。然后用一个金属的罐头盒子装着一些类似白色甜食的东西当食品吃掉。每吃完一勺子，他就会点点头，仿佛夸赞他手里的食物。",
-      "date": "2026-08-12T14:02:58.426Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-8.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.425Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-9.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.425Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
       "title": "Icarus's Fall · 伊卡洛斯的坠落",
       "href": "fictions/icarus/fiction-icarussfall.html",
       "excerpt": "以暗杀核聚变专家的阴谋为开端，追踪现代诺斯替主义教派与技术乌托邦之间的暧昧同谋。 主角在阴谋调查中不断遭遇“知识即救赎”的幻觉，同时逐渐意识到， 自己也在享受站在世界崩塌边缘的快感。",
       "date": "2026-08-12T14:02:58.425Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-5.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.424Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-6.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.424Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-7.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.424Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-27.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.423Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-3.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.423Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-4.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.423Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-26.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.422Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-24.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.420Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-25.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.420Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-23.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.418Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-22.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.417Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-21.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.416Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-20.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.415Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-18.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.414Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-19.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.414Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-2.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.414Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-17.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.413Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-16.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.412Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-14.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.411Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-15.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.411Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-13.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.410Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-11.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.409Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-12.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.409Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-1.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.408Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-10.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.408Z"
-    },
-    {
-      "key": "fictions",
-      "label": "Fictions",
-      "title": "Icarus's Fall",
-      "href": "fictions/icarus/fiction-icarussfall-0.html",
-      "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-      "date": "2026-08-12T14:02:58.407Z"
     },
     {
       "key": "essays",
@@ -990,130 +574,74 @@ window.NORDENBOX_CONTENT_INDEX = {
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-14.html",
-        "excerpt": "第十四章",
-        "date": "2026-09-09T15:21:13.684Z"
+        "title": "红尘",
+        "href": "fictions/fiction-red-dust.html",
+        "excerpt": "一部从火车站和河南小城展开的电影剧本。",
+        "date": "2026-09-27T13:48:45.266Z"
       },
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-15.html",
-        "excerpt": "第十五章",
-        "date": "2026-09-09T15:21:13.684Z"
+        "title": "战警之无悔",
+        "href": "fictions/fiction-police-no-regrets.html",
+        "excerpt": "一部以特警行动为背景的电影剧本。",
+        "date": "2026-09-27T13:48:45.260Z"
       },
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-10.html",
-        "excerpt": "第十章",
-        "date": "2026-09-09T15:21:13.683Z"
+        "title": "Shame",
+        "href": "fictions/fiction-shame.html",
+        "excerpt": "A screenplay about a girl, memory, and the private violence hidden inside an ordinary home.",
+        "date": "2026-09-27T13:48:45.256Z"
       },
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-11.html",
-        "excerpt": "第十一章",
-        "date": "2026-09-09T15:21:13.683Z"
+        "title": "中央饭店",
+        "href": "fictions/fiction-central-hotel.html",
+        "excerpt": "电影剧本。北京，2016 年冬天，一座高级妇产医院和一间中央饭店。",
+        "date": "2026-09-27T13:48:45.252Z"
       },
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-12.html",
-        "excerpt": "第十二章",
-        "date": "2026-09-09T15:21:13.683Z"
+        "title": "未定名之红楼梦作品",
+        "href": "fictions/fiction-untitled-dream-of-the-red-chamber.html",
+        "excerpt": "以惜春等人物为中心，延伸红楼梦之后的故事。",
+        "date": "2026-09-27T13:48:44.130Z"
       },
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-13.html",
-        "excerpt": "第十三章",
-        "date": "2026-09-09T15:21:13.683Z"
+        "title": "三国心事",
+        "href": "fictions/fiction-three-kingdoms-reflections.html",
+        "excerpt": "从历史人物的内心出发，重新凝视乱世、权力、爱情与自我。",
+        "date": "2026-09-27T13:48:44.039Z"
       },
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-9.html",
-        "excerpt": "第九章",
-        "date": "2026-09-09T15:21:13.683Z"
+        "title": "New Republic",
+        "href": "fictions/fiction-new-republic.html",
+        "excerpt": "一部从 2041 年的海上航行展开的长篇文学作品，写希望、混乱与虚荣。",
+        "date": "2026-09-27T13:48:43.958Z"
       },
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-8.html",
-        "excerpt": "第八章",
-        "date": "2026-09-09T15:21:13.681Z"
+        "title": "Conjuring",
+        "href": "fictions/fiction-conjuring.html",
+        "excerpt": "A film treatment about a fallen mental magician who is asked to uncover a crime inside a secluded estate.",
+        "date": "2026-09-27T13:48:43.845Z"
       },
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-7.html",
-        "excerpt": "第七章",
-        "date": "2026-09-09T15:21:13.680Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-4.html",
-        "excerpt": "第四章",
-        "date": "2026-09-09T15:21:13.679Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-5.html",
-        "excerpt": "第五章",
-        "date": "2026-09-09T15:21:13.679Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-6.html",
-        "excerpt": "第六章",
-        "date": "2026-09-09T15:21:13.679Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-2.html",
-        "excerpt": "第二章",
-        "date": "2026-09-09T15:21:13.678Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-3.html",
-        "excerpt": "第三章",
-        "date": "2026-09-09T15:21:13.678Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "金羊毛",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-1.html",
-        "excerpt": "第一章",
-        "date": "2026-09-09T15:21:13.676Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "The Golden Fleece · 金羊毛 · 楔子",
-        "href": "fictions/golden-fleece/fiction-golden-fleece-0.html",
-        "excerpt": "李大维坐在民事三庭的长廊上，看着空荡荡的走廊。他穿得很周正，打着领带，通常他并不这么穿着，他喜欢穿很随意的衣服，尽管极其昂贵，但是外人根本看不出来。但他喜欢这样，他始终是一个北京人，不习惯南方人的刻意穿着。 走廊的尽头是一个落地窗，外面是北京冬日的阳光，阳光懒洋洋的。李大维看了看表，离开庭时间还有半个多小时。可是自己的妻子还没有来，也许她不敢来见他。她其实从一开始就没打算来。",
-        "date": "2026-09-09T15:21:13.675Z"
+        "title": "A Kill From Heaven",
+        "href": "fictions/fiction-a-kill-from-heaven.html",
+        "excerpt": "电影剧本。一个小镇、一次秘密行动，以及逐渐逼近的危险。",
+        "date": "2026-09-27T13:48:43.757Z"
       },
       {
         "key": "fictions",
@@ -1142,370 +670,10 @@ window.NORDENBOX_CONTENT_INDEX = {
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-7.html",
-        "excerpt": "白色的光芒照射在街面残积的水面上，行人在水泥墙边迎着寒风站立。我已经在这里逛了三到四个小时，看着外滩的高大房屋。他们都耸立在和煦的阳光中，上海的天气和北京相比要暖和许多。 我已经从家里来到了这里，昨天和前天给我的感受如同被迅速晒干的雨水一样，快速地在我心中了无痕迹。我已经知道，在一场彻底的决裂之后，我和家里的关系将从此告一段落，他们已经拒绝再支付我的任何费用。当然，在很大程度上，是我激怒了他们---因为我害怕他们宽恕我，我故意将自己逼入绝境，这样使得我能彻底地站到纳吉的一边。",
-        "date": "2026-08-12T14:02:58.430Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-8.html",
-        "excerpt": "海面如同一锅早已平静的开水，雾气弥漫在四周，没有声音。阳光透过重重雾气照射下来，甲板热得发烫。 我站在船头，往四周看。四周都是一片亮光，无论你往何处看，都是一样，彼此没有亮度的差别，我觉得自己和船就好像身处一个摄影棚中，自己变得无比地微小，整个世界就好像一个微缩景观，自己是这个景观中的一个小小的盆景。甚至没有鸟飞过。",
-        "date": "2026-08-12T14:02:58.430Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-9.html",
-        "excerpt": "仰光港和煦的阳光慢慢地将凯照射醒来，她发现自己趴在一张发烫的铁艺桌子上已经睡着了，腋下和下巴下都是汗水，等她直起身体的时候，这些出汗的部位竟有一丝清凉。 一个星期前的大风暴，早已如同地面上被晒干的水一样，不在这一个多星期乏味的旅程中起到任何作用。左前方是一片肮脏的海滩，一些用木头建成的酒吧和杂货店就坐落在这片海滩之上。那艘贸易船正在远处卸货，船长已经不见踪影，只有一些工人在自行卸货。",
-        "date": "2026-08-12T14:02:58.430Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-3.html",
-        "excerpt": "前方是一个木板做成的屋子。浅蓝色的油漆已经全部褪色，仅存在木板的缝隙之中。门口一个铁制的椅子上，堆满了积雪。黑色的土地泥泞不堪，让人觉得害怕深陷其中。 我走上台阶，在门口摁了门铃。一阵风吹来，我才发现门并没关。门口有一张纸条贴在门板上，刚才因为有纱窗门阻挡而未能看清。",
-        "date": "2026-08-12T14:02:58.429Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-4.html",
-        "excerpt": "我被带进了一个充满蓝色花纹墙纸的房间。房间大约有十几平米的大小，除了一张床外什么也没有。一扇巨大的落地窗外是寒冷、雾气蒙蒙的哈德逊湾，海面上正在波涛汹涌。 但是屋子里面却安静地如同欧洲某个修道院宁静午后的庭院。白色，充满朦胧的光线好像掺杂着水汽一样弥漫在整个屋子里面，但是空气很干燥，屋子里面也很暖和。",
-        "date": "2026-08-12T14:02:58.429Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-5.html",
-        "excerpt": "我姓李，我出生在中国浙江的一个庞大的家族。这个家族世代都饱读诗书，出现过许多在中国近代历史上非常出名的人，他们有的是学者，有的是医生，有的是富有的商人。他们都是社会的贤达，但是他们有一条严格的家规，就是从来不去做政府的官员。因为他们相信社会在不断的变革，很多事情是把握不住的。他们相信严格的教育和严谨的家风是保障这个家族在两百年的历史中屹立不倒的唯一信条。 他们严格要求出生在这个家庭中的孩子们，每一个孩子都要接受近乎苛刻的家庭教育。每一个孩子从小就生活在众人的视野之中，无时不刻接受着长辈严厉的目光审视，不敢做任何不合规矩的事情。这个家族中所有成员家庭的财富都是共享的。如果某一家比较贫困，它是感觉不到的。因为所有的教育和购置房屋的巨大开支，都是由这个家族共同承担的。因为如此，每一个人都受到的几乎相同的教育，同时也可以培养一种责任感。这就是说，你是一个人，但是你绝对不是只属于你的一个人，你的每一步都受到了家族的帮助，那么你以后的每一个成就，也就必须反馈这个家族。",
-        "date": "2026-08-12T14:02:58.429Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-6.html",
-        "excerpt": "凯无法承受纳吉的离去给她带来的伤痛。她回到自己的宿舍，简单地收拾了自己的行装，然后直接去了机场。 但是这些伤痛之中又带着些许的甜蜜，这是一种混合着蜂蜜和伤口破裂的感觉：纳吉因为无法违抗父亲—一个给予他巨大影响的老家伙—而回到了白沙瓦，在那里去经营他们家族的医院。但是纳吉却向她保证，给他一点时间，他会回去料理好自己的家庭事务，他会和自己从来没有感情的妻子讲明白他爱上了一个亚洲女孩，并且要和她一起定居美国，经营一个属于他们的小世界。",
-        "date": "2026-08-12T14:02:58.429Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-16.html",
-        "excerpt": "躺在陌生的床上。这里是黎医生的住处，在一个河岸旁边的小楼之中。楼下是一个熙熙攘攘的街道，街上有小型卡车送来新鲜的蔬菜和一些杂货，四处充满着低声的细语和吵架声。 这里是这个小镇的西南边缘，因为靠近贸易通道，这里的气氛和小镇的核心地带以及安东的城堡相隔甚远，看上去竟然不像在同样一个地方。这是黎医生的气质。他在前一天要求我跟他一起回到他的家中，他反复保证，这只不过是为了完成一个特殊的任务，而这个任务目前并不方便明说，但是只能用这种方式来加以完成。",
-        "date": "2026-08-12T14:02:58.428Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-17.html",
-        "excerpt": "阳光在下午的时候异常灼热。这正是一日中最热的时候。但时间的流逝和黎医生选择的时间，透着一股立刻就要迎来凉意的感觉。 凯被黎医生带领，花了几块钱本地货币，乘坐了一辆内燃机三轮车，当地人对这种车辆有一种特别的叫法，类似法语的 Coucou，准备来到了小镇的边缘。在路上的时候，凯已经看见了有不少人用着不同的方式在朝着同一个目的地前进。他们彼此都知道对方，就好像铃声中匆匆奔向教室，彼此互不打量的学生。",
-        "date": "2026-08-12T14:02:58.428Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-2.html",
-        "excerpt": "从飞机里面出来，我就被一种干燥的寒冷空气弄得全无游兴。满目是低矮平房和颜色单调的超市、加油站等令人乏味的建筑。身后的一片蓝色的大海之上，翻滚着灰色的波浪，冰冷的泡沫布撒在空中，使得空气之中有一个盐的味道。 这里是加拿大哈得逊湾的一个古老的贸易港，现在已经变得毫不重要。街道因为下过雪而变得肮脏，并且我看不出街道与社区的边界，仿佛灰黑色的雪和泥土直接从天而降覆盖了整个大地。寒风吹拂着高空，虽然天气晴朗，但是我仍然觉得刺骨的寒冷。",
-        "date": "2026-08-12T14:02:58.428Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-12.html",
-        "excerpt": "Naga, 你们叫她这个名字。 每一个地方，对每一个来过这里的人来说，都会有一个名字。英国人来过这里，给这里起了一个无关痛痒的某王子的名字，但这个地方既不是海港也不是交通要道，所以崇尚贸易民族起的名字就没办法流传下来。",
-        "date": "2026-08-12T14:02:58.427Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-13.html",
-        "excerpt": "早晨略微清凉一些，沿着这个小城还没苏醒的街道行走，仿佛根本不认识这个地方。凯和米克斯行走在一个小小的街道之中，四周根本没有一个人。 凯四周望下去，一些建筑散落在这个山谷的四周。昨天晚上根本没有机会好好看看这个山谷。凯这才发现这座小城根本比她想象地要大得多。散落的建筑能够容纳相当多的人，凯内心深处计算了一下，这个山谷小城至少可以容纳好几万人，昨天她看到的不过一片声色犬马的场所，根本不是小镇的全部。米克斯告诉她，小城里面居住着很多体面的人，包括安东这个疯子，还有各种身份不明的人，他们从来不会出现在那条街道上，他们过着他们自己的生活，不久你就会见到。",
-        "date": "2026-08-12T14:02:58.427Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-14.html",
-        "excerpt": "我再一次看到米克斯的时候，他被囚禁在一个简易的木板房子里面。这所房子就在那伽小镇的市中心，一个炎热的池塘旁边。这里没有看守，但是米克斯被锁在小屋子里的一个铁杆上，席地而坐，基本不能动弹。他的脸色通红，炎热的室内气温混合着屋子外面沼泽里面翻腾上来的青草味道，使得屋子里的空气浑浊不堪，他的胳膊已经被他自己抓烂，却只是叹了一口气，似乎心中所忧愁的不是眼前这些事情。 米克斯嘴里面吐露着只言片语，声音在屋子周边徘徊，穿透了屋子，在市镇中心的街市上飘荡。他的声音很轻，如同街上泛起的尘土，被热气蒸腾到四面八方，找不到自己的归宿。街市如同往常一样，充斥着乏味的阳光，在这里，中午和下午是被刻意忽视的，存在的只有卖不掉的死鱼一样任意发臭氛围。",
-        "date": "2026-08-12T14:02:58.427Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-15.html",
-        "excerpt": "失去了米克斯，凯的行程被暂时搁置了。没有人来解释这件事情，整个娜迦小镇重新回到了极度寂静的状态，只要在黄昏没有到来之前，到处都是炎热和耀眼的白光，死气沉沉，所有人都在睡觉。没有人关心米克斯在哪里，安东和卡拉也离开这里，他们去哪里了不重要，这里的所有人都知道安东总是会定去出门，然后定期回来，和雨季旱季的交替那样准时。 凯沉睡在河边的旅馆里面，米克斯已经付了一个多月的房租，暂时不用担心任何事情。她一直在回想池塘边的那一幕。没有人强迫米克斯跳下去，一切都是米克斯自己的行为。而且凯可以断定，米克斯在跳下池塘的那一刻，她完全明白那眼神的意思。",
-        "date": "2026-08-12T14:02:58.427Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-1.html",
-        "excerpt": "窗外的鲜花因为阳光的照射而显得更加夺目，似乎香味更浓烈了一些。阳光透过两扇冲西和冲南的窗子中照射进来，砸落在一张小床上。 我躺在床上，赤身裸体。白色的床带和被子压在我的身上，我浑身溽热，但是却一动也不想动。我看着这间只有十平米的房间的屋顶，听着窗外传来的海浪声，脑子里面一片空白，能想的只有一件事情了：我本来应该昨天下午给我的编辑发一封我已经写好了我的作品的电子邮件。",
-        "date": "2026-08-12T14:02:58.426Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-10.html",
-        "excerpt": "我无法描述她的长相，因为我早已忘记，就好像烟雾一样。记住，你能记住一个人的长相，并不表示你对她有多深的感情，也许只是你记住而已。而你记不住某个人容貌，也许只是她已经融在你的血液之中。 天空被破碎的舷窗割裂成几十个小型的世界。黑色燃油从裂缝中喷射出来，在寒冷的空气中粘稠无比，很快就像病毒一样爬满了整个舷窗。",
-        "date": "2026-08-12T14:02:58.426Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "少女与虎",
-        "href": "fictions/maiden-tiger/fiction-maiden-tiger-11.html",
-        "excerpt": "那辆汽车在炎热和乏味的山道之中开了许久，只有转过一个曲折山路的时候，前方疾驰而来的山峰能给我带来一丝清凉和一片壮丽的山色。 米克斯并不想把车开得很快，他坚持要在途中休息，甚至过夜。对此我表示了一些不解和愤怒，但根本无济于事，米克斯并不在乎我的想法：我想尽快离开这个地方，前往我心目中的蓝毗尼，那片合欢树之下。米克斯每次都用极其冷淡的眼神看着远处乏味的高山，然后毫无道理地休息。然后用一个金属的罐头盒子装着一些类似白色甜食的东西当食品吃掉。每吃完一勺子，他就会点点头，仿佛夸赞他手里的食物。",
-        "date": "2026-08-12T14:02:58.426Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-8.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.425Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-9.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.425Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
         "title": "Icarus's Fall · 伊卡洛斯的坠落",
         "href": "fictions/icarus/fiction-icarussfall.html",
         "excerpt": "以暗杀核聚变专家的阴谋为开端，追踪现代诺斯替主义教派与技术乌托邦之间的暧昧同谋。 主角在阴谋调查中不断遭遇“知识即救赎”的幻觉，同时逐渐意识到， 自己也在享受站在世界崩塌边缘的快感。",
         "date": "2026-08-12T14:02:58.425Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-5.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.424Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-6.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.424Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-7.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.424Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-27.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.423Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-3.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.423Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-4.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.423Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-26.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.422Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-24.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.420Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-25.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.420Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-23.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.418Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-22.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.417Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-21.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.416Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-20.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.415Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-18.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.414Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-19.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.414Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-2.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.414Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-17.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.413Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-16.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.412Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-14.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.411Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-15.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.411Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-13.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.410Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-11.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.409Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-12.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.409Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-1.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.408Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-10.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.408Z"
-      },
-      {
-        "key": "fictions",
-        "label": "Fictions",
-        "title": "Icarus's Fall",
-        "href": "fictions/icarus/fiction-icarussfall-0.html",
-        "excerpt": "人类的太阳虽然温暖，给人光明，但也会灼伤人",
-        "date": "2026-08-12T14:02:58.407Z"
       }
     ],
     "non-fiction": [

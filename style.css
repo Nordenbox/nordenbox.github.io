@@ -60,6 +60,47 @@ p {
   margin: 0;
 }
 
+.project .screenplay-scene {
+  margin-top: 2em;
+  font-family: var(--font-sans);
+  font-weight: 600;
+}
+
+.project .screenplay-character {
+  margin: 1.2em 0 0.15em 10%;
+  font-family: var(--font-sans);
+  font-weight: 600;
+}
+
+.project .screenplay-parenthetical {
+  margin: 0.1em 12% 0.15em;
+  font-style: italic;
+}
+
+.project .screenplay-dialogue {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.project .screenplay-transition {
+  margin-top: 1.4em;
+  text-align: right;
+  font-family: var(--font-sans);
+}
+
+@media (max-width: 640px) {
+  .project .screenplay-character,
+  .project .screenplay-dialogue {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .project .screenplay-parenthetical {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+}
+
 a {
   color: var(--color-accent);
   text-decoration: none;

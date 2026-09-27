@@ -6,7 +6,15 @@ const outputFile = path.join(root, 'content-index.js');
 
 const PAGE_GROUPS = [
   { key: 'essays', label: 'Essays', dir: 'essays', include: (rel) => rel.startsWith('essays/') && rel !== 'essays.html' },
-  { key: 'fictions', label: 'Fictions', dir: 'fictions', include: (rel) => rel.startsWith('fictions/') && rel !== 'fictions.html' && rel !== 'fictions/index.html' },
+  {
+    key: 'fictions',
+    label: 'Fictions',
+    dir: 'fictions',
+    include: (rel) => rel.startsWith('fictions/')
+      && rel !== 'fictions.html'
+      && rel !== 'fictions/index.html'
+      && !/-\d+\.html$/.test(rel),
+  },
   { key: 'non-fiction', label: 'Non-fiction', dir: '.', include: (rel) => rel === 'non-fiction-empty-mountains-spiritual-rain.html' || rel.startsWith('non-fiction-') },
   { key: 'projects', label: 'Projects', dir: 'projects', include: (rel) => rel.startsWith('projects/') && rel !== 'projects.html' },
   { key: 'razzmatazz', label: 'Razzmatazz', dir: 'razzmatazz', include: (rel) => rel.startsWith('razzmatazz/') && rel !== 'razzmatazz/index.html' },
