@@ -6,7 +6,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "红尘",
       "href": "fictions/fiction-red-dust.html",
       "excerpt": "一部从火车站和河南小城展开的电影剧本。",
-      "date": "2026-09-27T14:11:09.696Z"
+      "date": "2026-09-27T22:59:35.459Z",
+      "format": "screenplay"
     },
     {
       "key": "fictions",
@@ -14,7 +15,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "战警之无悔",
       "href": "fictions/fiction-police-no-regrets.html",
       "excerpt": "一部以特警行动为背景的电影剧本。",
-      "date": "2026-09-27T14:11:09.689Z"
+      "date": "2026-09-27T22:59:35.453Z",
+      "format": "screenplay"
     },
     {
       "key": "fictions",
@@ -22,7 +24,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "Shame",
       "href": "fictions/fiction-shame.html",
       "excerpt": "A screenplay about a girl, memory, and the private violence hidden inside an ordinary home.",
-      "date": "2026-09-27T14:11:09.685Z"
+      "date": "2026-09-27T22:59:35.449Z",
+      "format": "screenplay"
     },
     {
       "key": "fictions",
@@ -30,7 +33,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "中央饭店",
       "href": "fictions/fiction-central-hotel.html",
       "excerpt": "电影剧本。北京，2016 年冬天，一座高级妇产医院和一间中央饭店。",
-      "date": "2026-09-27T14:11:09.682Z"
+      "date": "2026-09-27T22:59:35.447Z",
+      "format": "screenplay"
     },
     {
       "key": "fictions",
@@ -38,7 +42,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "未定名之红楼梦作品",
       "href": "fictions/fiction-untitled-dream-of-the-red-chamber.html",
       "excerpt": "以惜春等人物为中心，延伸红楼梦之后的故事。",
-      "date": "2026-09-27T14:11:08.718Z"
+      "date": "2026-09-27T22:59:34.556Z",
+      "format": "literature"
     },
     {
       "key": "fictions",
@@ -46,7 +51,44 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "三国心事",
       "href": "fictions/fiction-three-kingdoms-reflections.html",
       "excerpt": "从历史人物的内心出发，重新凝视乱世、权力、爱情与自我。",
-      "date": "2026-09-27T14:11:08.624Z"
+      "date": "2026-09-27T22:59:34.461Z",
+      "format": "literature"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "远东特快",
+      "href": "fictions/fiction-far-east-express.html",
+      "excerpt": "电影剧本。关于一列列车、旧日电影与人物命运的故事。",
+      "date": "2026-09-27T22:59:34.378Z",
+      "format": "screenplay"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "温暖的机器 · The Warm Machine",
+      "href": "fictions/fiction-warm-machine.html",
+      "excerpt": "一部以电子邮件、记忆和数字存在为线索展开的小说。",
+      "date": "2026-09-27T22:59:34.372Z",
+      "format": "literature"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "The Funeral V7.5",
+      "href": "fictions/fiction-the-funeral.html",
+      "excerpt": "电影剧本。一场葬礼，以及围绕病床与记忆展开的故事。",
+      "date": "2026-09-27T22:59:34.268Z",
+      "format": "screenplay"
+    },
+    {
+      "key": "fictions",
+      "label": "Fictions",
+      "title": "Lilie 2.0",
+      "href": "fictions/fiction-lilie-2.html",
+      "excerpt": "电影剧本。雪地、警察与一段逐渐展开的往事。",
+      "date": "2026-09-27T22:59:34.262Z",
+      "format": "screenplay"
     },
     {
       "key": "fictions",
@@ -54,7 +96,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "New Republic",
       "href": "fictions/fiction-new-republic.html",
       "excerpt": "一部从 2041 年的海上航行展开的长篇文学作品，写希望、混乱与虚荣。",
-      "date": "2026-09-27T14:11:08.538Z"
+      "date": "2026-09-27T22:59:34.256Z",
+      "format": "literature"
     },
     {
       "key": "fictions",
@@ -62,7 +105,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "The Conjure",
       "href": "fictions/fiction-conjuring.html",
       "excerpt": "一位失意的心灵魔术师，受邀前往海边庄园调查一桩隐秘案件。",
-      "date": "2026-09-27T14:11:08.423Z"
+      "date": "2026-09-27T22:59:34.141Z",
+      "format": "screenplay"
     },
     {
       "key": "fictions",
@@ -70,7 +114,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "A Kill From Heaven",
       "href": "fictions/fiction-a-kill-from-heaven.html",
       "excerpt": "电影剧本。一个小镇、一次秘密行动，以及逐渐逼近的危险。",
-      "date": "2026-09-27T14:11:08.415Z"
+      "date": "2026-09-27T22:59:34.133Z",
+      "format": "screenplay"
     },
     {
       "key": "fictions",
@@ -78,7 +123,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "The Golden Fleece · 金羊毛",
       "href": "fictions/golden-fleece/fiction-golden-fleece.html",
       "excerpt": "一个中国商人的历史，从乌拉圭的羊毛与鱼翅，到上海的工厂，到纽约的爱情和自我毁灭。 这是一部关于羞耻、野心、现代性、失败与“怎么活下去”的长篇小说。",
-      "date": "2026-09-09T15:17:00.662Z"
+      "date": "2026-09-09T15:17:00.662Z",
+      "format": "literature"
     },
     {
       "key": "razzmatazz",
@@ -414,7 +460,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "Maiden & Tiger · 少女与虎",
       "href": "fictions/maiden-tiger/fiction-maiden-tiger.html",
       "excerpt": "那是关于一只孟加拉虎的记忆，也是一场穿越欲望与死亡的潮湿旅途。",
-      "date": "2026-08-12T14:02:58.431Z"
+      "date": "2026-08-12T14:02:58.431Z",
+      "format": "literature"
     },
     {
       "key": "fictions",
@@ -422,7 +469,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "The Flame and Bouquet",
       "href": "fictions/the-flame-and-bouquet.html",
       "excerpt": "Chapter 1 opens in a freezing inn, with rain, mead, and the sense that a long journey is just beginning.",
-      "date": "2026-08-12T14:02:58.431Z"
+      "date": "2026-08-12T14:02:58.431Z",
+      "format": "literature"
     },
     {
       "key": "fictions",
@@ -430,7 +478,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "Icarus's Fall · 伊卡洛斯的坠落",
       "href": "fictions/icarus/fiction-icarussfall.html",
       "excerpt": "以暗杀核聚变专家的阴谋为开端，追踪现代诺斯替主义教派与技术乌托邦之间的暧昧同谋。 主角在阴谋调查中不断遭遇“知识即救赎”的幻觉，同时逐渐意识到， 自己也在享受站在世界崩塌边缘的快感。",
-      "date": "2026-08-12T14:02:58.425Z"
+      "date": "2026-08-12T14:02:58.425Z",
+      "format": "literature"
     },
     {
       "key": "essays",
@@ -577,7 +626,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "红尘",
         "href": "fictions/fiction-red-dust.html",
         "excerpt": "一部从火车站和河南小城展开的电影剧本。",
-        "date": "2026-09-27T14:11:09.696Z"
+        "date": "2026-09-27T22:59:35.459Z",
+        "format": "screenplay"
       },
       {
         "key": "fictions",
@@ -585,7 +635,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "战警之无悔",
         "href": "fictions/fiction-police-no-regrets.html",
         "excerpt": "一部以特警行动为背景的电影剧本。",
-        "date": "2026-09-27T14:11:09.689Z"
+        "date": "2026-09-27T22:59:35.453Z",
+        "format": "screenplay"
       },
       {
         "key": "fictions",
@@ -593,7 +644,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "Shame",
         "href": "fictions/fiction-shame.html",
         "excerpt": "A screenplay about a girl, memory, and the private violence hidden inside an ordinary home.",
-        "date": "2026-09-27T14:11:09.685Z"
+        "date": "2026-09-27T22:59:35.449Z",
+        "format": "screenplay"
       },
       {
         "key": "fictions",
@@ -601,7 +653,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "中央饭店",
         "href": "fictions/fiction-central-hotel.html",
         "excerpt": "电影剧本。北京，2016 年冬天，一座高级妇产医院和一间中央饭店。",
-        "date": "2026-09-27T14:11:09.682Z"
+        "date": "2026-09-27T22:59:35.447Z",
+        "format": "screenplay"
       },
       {
         "key": "fictions",
@@ -609,7 +662,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "未定名之红楼梦作品",
         "href": "fictions/fiction-untitled-dream-of-the-red-chamber.html",
         "excerpt": "以惜春等人物为中心，延伸红楼梦之后的故事。",
-        "date": "2026-09-27T14:11:08.718Z"
+        "date": "2026-09-27T22:59:34.556Z",
+        "format": "literature"
       },
       {
         "key": "fictions",
@@ -617,7 +671,44 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "三国心事",
         "href": "fictions/fiction-three-kingdoms-reflections.html",
         "excerpt": "从历史人物的内心出发，重新凝视乱世、权力、爱情与自我。",
-        "date": "2026-09-27T14:11:08.624Z"
+        "date": "2026-09-27T22:59:34.461Z",
+        "format": "literature"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "远东特快",
+        "href": "fictions/fiction-far-east-express.html",
+        "excerpt": "电影剧本。关于一列列车、旧日电影与人物命运的故事。",
+        "date": "2026-09-27T22:59:34.378Z",
+        "format": "screenplay"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "温暖的机器 · The Warm Machine",
+        "href": "fictions/fiction-warm-machine.html",
+        "excerpt": "一部以电子邮件、记忆和数字存在为线索展开的小说。",
+        "date": "2026-09-27T22:59:34.372Z",
+        "format": "literature"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "The Funeral V7.5",
+        "href": "fictions/fiction-the-funeral.html",
+        "excerpt": "电影剧本。一场葬礼，以及围绕病床与记忆展开的故事。",
+        "date": "2026-09-27T22:59:34.268Z",
+        "format": "screenplay"
+      },
+      {
+        "key": "fictions",
+        "label": "Fictions",
+        "title": "Lilie 2.0",
+        "href": "fictions/fiction-lilie-2.html",
+        "excerpt": "电影剧本。雪地、警察与一段逐渐展开的往事。",
+        "date": "2026-09-27T22:59:34.262Z",
+        "format": "screenplay"
       },
       {
         "key": "fictions",
@@ -625,7 +716,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "New Republic",
         "href": "fictions/fiction-new-republic.html",
         "excerpt": "一部从 2041 年的海上航行展开的长篇文学作品，写希望、混乱与虚荣。",
-        "date": "2026-09-27T14:11:08.538Z"
+        "date": "2026-09-27T22:59:34.256Z",
+        "format": "literature"
       },
       {
         "key": "fictions",
@@ -633,7 +725,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "The Conjure",
         "href": "fictions/fiction-conjuring.html",
         "excerpt": "一位失意的心灵魔术师，受邀前往海边庄园调查一桩隐秘案件。",
-        "date": "2026-09-27T14:11:08.423Z"
+        "date": "2026-09-27T22:59:34.141Z",
+        "format": "screenplay"
       },
       {
         "key": "fictions",
@@ -641,7 +734,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "A Kill From Heaven",
         "href": "fictions/fiction-a-kill-from-heaven.html",
         "excerpt": "电影剧本。一个小镇、一次秘密行动，以及逐渐逼近的危险。",
-        "date": "2026-09-27T14:11:08.415Z"
+        "date": "2026-09-27T22:59:34.133Z",
+        "format": "screenplay"
       },
       {
         "key": "fictions",
@@ -649,7 +743,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "The Golden Fleece · 金羊毛",
         "href": "fictions/golden-fleece/fiction-golden-fleece.html",
         "excerpt": "一个中国商人的历史，从乌拉圭的羊毛与鱼翅，到上海的工厂，到纽约的爱情和自我毁灭。 这是一部关于羞耻、野心、现代性、失败与“怎么活下去”的长篇小说。",
-        "date": "2026-09-09T15:17:00.662Z"
+        "date": "2026-09-09T15:17:00.662Z",
+        "format": "literature"
       },
       {
         "key": "fictions",
@@ -657,7 +752,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "Maiden & Tiger · 少女与虎",
         "href": "fictions/maiden-tiger/fiction-maiden-tiger.html",
         "excerpt": "那是关于一只孟加拉虎的记忆，也是一场穿越欲望与死亡的潮湿旅途。",
-        "date": "2026-08-12T14:02:58.431Z"
+        "date": "2026-08-12T14:02:58.431Z",
+        "format": "literature"
       },
       {
         "key": "fictions",
@@ -665,7 +761,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "The Flame and Bouquet",
         "href": "fictions/the-flame-and-bouquet.html",
         "excerpt": "Chapter 1 opens in a freezing inn, with rain, mead, and the sense that a long journey is just beginning.",
-        "date": "2026-08-12T14:02:58.431Z"
+        "date": "2026-08-12T14:02:58.431Z",
+        "format": "literature"
       },
       {
         "key": "fictions",
@@ -673,7 +770,8 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "Icarus's Fall · 伊卡洛斯的坠落",
         "href": "fictions/icarus/fiction-icarussfall.html",
         "excerpt": "以暗杀核聚变专家的阴谋为开端，追踪现代诺斯替主义教派与技术乌托邦之间的暧昧同谋。 主角在阴谋调查中不断遭遇“知识即救赎”的幻觉，同时逐渐意识到， 自己也在享受站在世界崩塌边缘的快感。",
-        "date": "2026-08-12T14:02:58.425Z"
+        "date": "2026-08-12T14:02:58.425Z",
+        "format": "literature"
       }
     ],
     "non-fiction": [

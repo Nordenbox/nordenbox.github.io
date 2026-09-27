@@ -13,7 +13,7 @@ const PAGE_GROUPS = [
     include: (rel) => rel.startsWith('fictions/')
       && rel !== 'fictions.html'
       && rel !== 'fictions/index.html'
-      && !/-\d+\.html$/.test(rel),
+      && !(rel.split('/').length > 2 && /-\d+\.html$/.test(rel)),
   },
   { key: 'non-fiction', label: 'Non-fiction', dir: '.', include: (rel) => rel === 'non-fiction-empty-mountains-spiritual-rain.html' || rel.startsWith('non-fiction-') },
   { key: 'projects', label: 'Projects', dir: 'projects', include: (rel) => rel.startsWith('projects/') && rel !== 'projects.html' },
@@ -41,6 +41,26 @@ const MANUAL_SECTIONS = {
 
 const EXCERPT_OVERRIDES = {
   'fictions/fiction-conjuring.html': '一位失意的心灵魔术师，受邀前往海边庄园调查一桩隐秘案件。',
+};
+
+const FICTION_FORMATS = {
+  'fictions/fiction-a-kill-from-heaven.html': 'screenplay',
+  'fictions/fiction-central-hotel.html': 'screenplay',
+  'fictions/fiction-conjuring.html': 'screenplay',
+  'fictions/fiction-new-republic.html': 'literature',
+  'fictions/fiction-police-no-regrets.html': 'screenplay',
+  'fictions/fiction-red-dust.html': 'screenplay',
+  'fictions/fiction-shame.html': 'screenplay',
+  'fictions/fiction-three-kingdoms-reflections.html': 'literature',
+  'fictions/fiction-untitled-dream-of-the-red-chamber.html': 'literature',
+  'fictions/fiction-lilie-2.html': 'screenplay',
+  'fictions/fiction-the-funeral.html': 'screenplay',
+  'fictions/fiction-warm-machine.html': 'literature',
+  'fictions/fiction-far-east-express.html': 'screenplay',
+  'fictions/golden-fleece/fiction-golden-fleece.html': 'literature',
+  'fictions/maiden-tiger/fiction-maiden-tiger.html': 'literature',
+  'fictions/icarus/fiction-icarussfall.html': 'literature',
+  'fictions/the-flame-and-bouquet.html': 'literature',
 };
 
 function listHtmlFiles(dir) {
@@ -112,6 +132,8 @@ function isCollectionPage(rel) {
     'home.html',
     'essays.html',
     'fictions.html',
+    'fictions/literature.html',
+    'fictions/screenplays.html',
     'non-fiction.html',
     'projects.html',
     'podcasts.html',
@@ -143,6 +165,7 @@ function buildSectionEntries(key, label, includeFn) {
         href,
         excerpt,
         date,
+        ...(key === 'fictions' ? { format: FICTION_FORMATS[rel] || 'literature' } : {}),
       };
     })
     .sort((a, b) => {

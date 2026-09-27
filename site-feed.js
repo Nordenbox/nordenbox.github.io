@@ -2,12 +2,15 @@
   const data = window.NORDENBOX_CONTENT_INDEX;
   if (!data) return;
   const sitePrefix = window.NORDENBOX_SITE_PREFIX || '';
+  const fictionEntries = data.sections?.fictions || [];
 
   const pages = {
     all: data.all || [],
     essays: data.sections?.essays || [],
     fictions: data.sections?.fictions || [],
     'non-fiction': data.sections?.['non-fiction'] || [],
+    'fiction-literature': fictionEntries.filter((item) => item.format === 'literature'),
+    'fiction-screenplays': fictionEntries.filter((item) => item.format === 'screenplay'),
     projects: data.sections?.projects || [],
     podcasts: data.sections?.podcasts || [],
     razzmatazz: data.sections?.razzmatazz || [],
