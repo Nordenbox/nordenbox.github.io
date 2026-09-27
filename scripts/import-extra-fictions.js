@@ -136,11 +136,68 @@ function normalizeText(text) {
     .replace(/\u00a0/g, ' ');
 }
 
+function correctObviousTypos(text) {
+  return text
+    .replace(/的的(?!确确)/g, '的')
+    .replace(/渐渐地地面/g, '渐渐地，地面')
+    .replace(/哭天抢地地表/g, '哭天抢地表')
+    .replace(/特地地强调/g, '特地强调')
+    .replace(/站在在沙发边/g, '站在沙发边')
+    .replace(/顶在在后背/g, '顶在后背')
+    .replace(/混在在人群/g, '混在人群')
+    .replace(/混在在一起/g, '混在一起')
+    .replace(/正在在店员包装/g, '正在由店员包装')
+    .replace(/远远在在海滩远处/g, '远远地在海滩远处')
+    .replace(/坐在在地上/g, '坐在地上')
+    .replace(/放在在火前/g, '放在火前')
+    .replace(/面在在反射/g, '面在反射')
+    .replace(/被被众人/g, '被众人')
+    .replace(/看到到处/g, '看见到处')
+    .replace(/但是是属于/g, '但是属于')
+    .replace(/而是是用了/g, '而是用了')
+    .replace(/便是是自己/g, '便是自己')
+    .replace(/哪里是是组织/g, '哪里是组织')
+    .replace(/传来了了一句话/g, '传来了一句话')
+    .replace(/一身叹息/g, '一声叹息')
+    .replace(/然后后退/g, '然后退')
+    .replace(/然后后面的旅途/g, '后面的旅途')
+    .replace(/呆了了十几个小时/g, '呆了十几个小时')
+    .replace(/和和蔼/g, '和蔼')
+    .replace(/和和善/g, '和善')
+    .replace(/平和和不动声色/g, '平和而不动声色')
+    .replace(/默契和和谐/g, '默契与和谐')
+    .replace(/不由得得出了/g, '不由得出了')
+    .replace(/存在在这个世界上/g, '存在于这个世界上')
+    .replace(/存在在这个地方/g, '存在于这个地方')
+    .replace(/装置在在南亚/g, '装置在南亚')
+    .replace(/很多多余/g, '很多余')
+    .replace(/受到到尊重/g, '受到尊重')
+    .replace(/传到到合不勒汗/g, '传到合不勒汗')
+    .replace(/原著居民/g, '原住居民')
+    .replace(/原著民/g, '原住民')
+    .replace(/这着为期/g, '这次为期')
+    .replace(/带给了他们带来/g, '给他们带来')
+    .replace(/跟多收入/g, '更多收入')
+    .replace(/莫不可测/g, '莫测')
+    .replace(/跟何况/g, '更何况')
+    .replace(/还见的还少/g, '还见得还少')
+    .replace(/它们走路时/g, '他们走路时')
+    .replace(/它们获得跟/g, '他们获得更')
+    .replace(/它们获得更多/g, '他们获得更多')
+    .replace(/没有知道他的名字/g, '没有人知道他的名字')
+    .replace(/昏暗的灯关下/g, '昏暗的灯光下')
+    .replace(/那时老人最小的儿子/g, '那是老人最小的儿子')
+    .replace(/以为他们的存在/g, '因为他们的存在')
+    .replace(/亚鲁藏布江/g, '雅鲁藏布江')
+    .replace(/事件费劲/g, '十分费劲')
+    .replace(/生命总结在/g, '生命终结在');
+}
+
 function readOfficeText(filePath) {
-  return normalizeText(execFileSync('textutil', ['-convert', 'txt', '-stdout', filePath], {
+  return correctObviousTypos(normalizeText(execFileSync('textutil', ['-convert', 'txt', '-stdout', filePath], {
     encoding: 'utf8',
     maxBuffer: 20 * 1024 * 1024,
-  }));
+  })));
 }
 
 function readRtfText(filePath) {
@@ -151,7 +208,7 @@ function readRtfText(filePath) {
       timeout: 60_000,
     });
     const outputPath = path.join(tempDir, `${path.basename(filePath, '.rtf')}.txt`);
-    return normalizeText(fs.readFileSync(outputPath, 'utf8'));
+    return correctObviousTypos(normalizeText(fs.readFileSync(outputPath, 'utf8')));
   } finally {
     fs.rmSync(tempDir, { recursive: true, force: true });
   }
@@ -253,13 +310,15 @@ function parseFadein(text) {
       .replace(/\r/g, '')
       .trim();
 
-    if (!value) {
+    const correctedValue = correctObviousTypos(value);
+
+    if (!correctedValue) {
       if (blocks.length) pendingBlankLines += 1;
       continue;
     }
 
     blocks.push({
-      text: value,
+      text: correctedValue,
       kind: classifyFadeinStyle(style),
       blankLinesBefore: pendingBlankLines,
     });

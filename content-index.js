@@ -1,12 +1,28 @@
 window.NORDENBOX_CONTENT_INDEX = {
   "all": [
     {
+      "key": "razzmatazz",
+      "label": "Razzmatazz",
+      "title": "Travelling Writing",
+      "href": "razzmatazz/travellingwriting/travelling-yarlung-tsangpo-gorge.html",
+      "excerpt": "致：《西藏人文地理》杂志社 文字编辑龙虎林先生 请斧正 &nbsp;",
+      "date": "2026-09-27T23:51:33.309Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "雅鲁藏布峡谷考察记",
+      "href": "non-fiction-yaluzangbu-canyon-notes.html",
+      "excerpt": "关于地理观察、行程和现场所见的记录。",
+      "date": "2026-09-27T23:51:33.303Z"
+    },
+    {
       "key": "fictions",
       "label": "Fictions",
       "title": "红尘",
       "href": "fictions/fiction-red-dust.html",
       "excerpt": "一部从火车站和河南小城展开的电影剧本。",
-      "date": "2026-09-27T22:59:35.459Z",
+      "date": "2026-09-27T23:51:33.197Z",
       "format": "screenplay"
     },
     {
@@ -15,7 +31,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "战警之无悔",
       "href": "fictions/fiction-police-no-regrets.html",
       "excerpt": "一部以特警行动为背景的电影剧本。",
-      "date": "2026-09-27T22:59:35.453Z",
+      "date": "2026-09-27T23:51:33.185Z",
       "format": "screenplay"
     },
     {
@@ -24,7 +40,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "Shame",
       "href": "fictions/fiction-shame.html",
       "excerpt": "A screenplay about a girl, memory, and the private violence hidden inside an ordinary home.",
-      "date": "2026-09-27T22:59:35.449Z",
+      "date": "2026-09-27T23:51:33.178Z",
       "format": "screenplay"
     },
     {
@@ -33,7 +49,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "中央饭店",
       "href": "fictions/fiction-central-hotel.html",
       "excerpt": "电影剧本。北京，2016 年冬天，一座高级妇产医院和一间中央饭店。",
-      "date": "2026-09-27T22:59:35.447Z",
+      "date": "2026-09-27T23:51:33.175Z",
       "format": "screenplay"
     },
     {
@@ -42,7 +58,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "未定名之红楼梦作品",
       "href": "fictions/fiction-untitled-dream-of-the-red-chamber.html",
       "excerpt": "以惜春等人物为中心，延伸红楼梦之后的故事。",
-      "date": "2026-09-27T22:59:34.556Z",
+      "date": "2026-09-27T23:51:31.953Z",
       "format": "literature"
     },
     {
@@ -51,7 +67,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "三国心事",
       "href": "fictions/fiction-three-kingdoms-reflections.html",
       "excerpt": "从历史人物的内心出发，重新凝视乱世、权力、爱情与自我。",
-      "date": "2026-09-27T22:59:34.461Z",
+      "date": "2026-09-27T23:51:31.857Z",
       "format": "literature"
     },
     {
@@ -60,7 +76,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "远东特快",
       "href": "fictions/fiction-far-east-express.html",
       "excerpt": "电影剧本。关于一列列车、旧日电影与人物命运的故事。",
-      "date": "2026-09-27T22:59:34.378Z",
+      "date": "2026-09-27T23:51:31.770Z",
       "format": "screenplay"
     },
     {
@@ -69,7 +85,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "温暖的机器 · The Warm Machine",
       "href": "fictions/fiction-warm-machine.html",
       "excerpt": "一部以电子邮件、记忆和数字存在为线索展开的小说。",
-      "date": "2026-09-27T22:59:34.372Z",
+      "date": "2026-09-27T23:51:31.760Z",
       "format": "literature"
     },
     {
@@ -78,7 +94,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "The Funeral V7.5",
       "href": "fictions/fiction-the-funeral.html",
       "excerpt": "电影剧本。一场葬礼，以及围绕病床与记忆展开的故事。",
-      "date": "2026-09-27T22:59:34.268Z",
+      "date": "2026-09-27T23:51:31.646Z",
       "format": "screenplay"
     },
     {
@@ -87,7 +103,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "Lilie 2.0",
       "href": "fictions/fiction-lilie-2.html",
       "excerpt": "电影剧本。雪地、警察与一段逐渐展开的往事。",
-      "date": "2026-09-27T22:59:34.262Z",
+      "date": "2026-09-27T23:51:31.635Z",
       "format": "screenplay"
     },
     {
@@ -96,7 +112,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "New Republic",
       "href": "fictions/fiction-new-republic.html",
       "excerpt": "一部从 2041 年的海上航行展开的长篇文学作品，写希望、混乱与虚荣。",
-      "date": "2026-09-27T22:59:34.256Z",
+      "date": "2026-09-27T23:51:31.624Z",
       "format": "literature"
     },
     {
@@ -105,7 +121,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "The Conjure",
       "href": "fictions/fiction-conjuring.html",
       "excerpt": "一位失意的心灵魔术师，受邀前往海边庄园调查一桩隐秘案件。",
-      "date": "2026-09-27T22:59:34.141Z",
+      "date": "2026-09-27T23:51:31.508Z",
       "format": "screenplay"
     },
     {
@@ -114,8 +130,160 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "A Kill From Heaven",
       "href": "fictions/fiction-a-kill-from-heaven.html",
       "excerpt": "电影剧本。一个小镇、一次秘密行动，以及逐渐逼近的危险。",
-      "date": "2026-09-27T22:59:34.133Z",
+      "date": "2026-09-27T23:51:31.489Z",
       "format": "screenplay"
+    },
+    {
+      "key": "razzmatazz",
+      "label": "Razzmatazz",
+      "title": "Travelling Writing",
+      "href": "razzmatazz/travellingwriting/travelling-small-town-annals.html",
+      "excerpt": "沿着荆州的南城门向东行驶，不过几分钟就到达了东城门，距离之短超过了我的理解。按照我的理解，一个城市如此之小，即使放在古代也是无法接受的。 但实际上，古时候的城墙绝对不是用来观光的，而是实实在在的城防建筑。在古代没有政府常备军和完善的国家治安体系，每一个城市都要独自面对土匪和流贼的侵扰，一个坚固的城墙就一定有存在的必要性了。现在的城市名称中，『镇』这个词汇，本质是上军事要塞的意思，意思是『军镇』，而不是现代意义的城市概念。",
+      "date": "2026-09-27T23:49:09.223Z"
+    },
+    {
+      "key": "razzmatazz",
+      "label": "Razzmatazz",
+      "title": "Travelling Writing",
+      "href": "razzmatazz/travellingwriting/travelling-pingjiang-scenes.html",
+      "excerpt": "对苏州的印象，主要还停留在父辈们的各种黑白照片上。在那些照片里面，他们穿着千篇一律的衣服在拙政园和虎丘各自留下了许多影像。而且记忆中还记得，照片的左下角有写着“虎丘照相”等字样。这就是苏州给我的永久印象。这是一个由旅游景点组建的城市。 十年来，我经历了大漠戈壁和雪山丛林。一直以来，我对蛮荒的大自然有些许的偏爱，流连于中国西部边疆的壮丽河山之中。不过，对江南的柔风细雨，小桥流水还是有发自内心的怀念。几年前在雪中度过了几天在西湖边闲逸漫游的日子，更是一直就没有再来过南方纯粹的游玩。其实我经常往来于南京上海，却对近在咫尺的苏州却从未踏足，自己都觉得很怪。所以某一天，我突然决定，买一张火车票，前往苏州。",
+      "date": "2026-09-27T23:49:09.222Z"
+    },
+    {
+      "key": "razzmatazz",
+      "label": "Razzmatazz",
+      "title": "Travelling Writing",
+      "href": "razzmatazz/travellingwriting/travelling-far-east-diary.html",
+      "excerpt": "远东日记 &nbsp;",
+      "date": "2026-09-27T23:49:09.221Z"
+    },
+    {
+      "key": "razzmatazz",
+      "label": "Razzmatazz",
+      "title": "Travelling Writing",
+      "href": "razzmatazz/travellingwriting/travelling-center-of-asia.html",
+      "excerpt": "小镇位处沙漠腹地，这里是312省道和318省道的交汇处。但是这里非常的小，唯一值得注意的是一个武警公安边防连和一个警察派出所。他们的建筑还多少齐整，迥异于这里毫无特色的土黄色平房。派出所的小伙子在打篮球，边防连的士兵在营房里面耷拉着脑袋，似乎对这了无生趣的小镇毫无兴趣。 最繁忙的地方，当属于这里唯一的一家加油站。川流不息的大货车搞的这里喧闹异常。我向一个皮肤黝黑，中等身材，穿着中国石油加油站制服的工作人员打听，对面来的一辆中巴是哪里来的，他看了看说，可能是宁夏的。我才注意到这辆汽车是宁E。车上下来很多同样皮肤黝黑的当地农民，夹杂着妇女儿童。我问他这里什么时候人比较多，他回答说国庆节假期的时候，全国各地的人都过来看胡杨林。车队加油都排队好几百米。但是平时则极为萧条。",
+      "date": "2026-09-27T23:49:09.220Z"
+    },
+    {
+      "key": "razzmatazz",
+      "label": "Razzmatazz",
+      "title": "Travelling Writing",
+      "href": "razzmatazz/travellingwriting/travelling-clear-sky-cold-forest.html",
+      "excerpt": "外面气温大约是零下四十度，但是我眼前的地上已经长出一寸多长的绿草，塑料大棚里面的温度大约三十度左右，两个大火炉上有两个大锅里面沸腾着水，所以室内的空气充满着潮湿的水汽。这潮湿的水汽里面还混合着人类的各种气味，这里面包含着女人的气息，腐烂白菜和新鲜桦木的味道。 这间伐木工人居住的双层塑料布大棚外面就是绵绵笼罩在寒冷空气中大兴安岭，空气由于寒冷变得灰蒙蒙的，细沙一般，绝不融化的干雪就厚厚的堆积在稀疏的桦树林间。这里正在经受五十年来最寒冷的寒冬。工人穿着单薄的毛衣和工作服，驾驶着泛着青光的机械履带车在拉动已经砍伐倒地的树木。这些碗口粗的树木已经是现在唯一能砍的树木，巨大的粗木在几十年前的“林区会战”中就砍伐一空。 这些连缀在一起的树木如同尸体一样，被一根钢丝绳拉拽着，穿越林间的小道，红色的桦树皮被刮到雪中，久而久之，这条混合着红色桦树皮和干雪的道路已经“血迹斑斑”。冰冷的钢铁履带无情的压出一条条道路，将树木集中在一个装载场，两条高挂的钢丝绳将这些被砍伐的树木吊装到一辆卡车上，然后卡车缓缓开走。",
+      "date": "2026-09-27T23:49:09.220Z"
+    },
+    {
+      "key": "razzmatazz",
+      "label": "Razzmatazz",
+      "title": "Travelling Writing",
+      "href": "razzmatazz/travellingwriting/travelling-breeze-of-ancientry.html",
+      "excerpt": "",
+      "date": "2026-09-27T23:49:09.219Z"
+    },
+    {
+      "key": "projects",
+      "label": "Projects",
+      "title": "SULTERS：Frontier",
+      "href": "projects/projects-sulters.html",
+      "excerpt": "战争中的前线小贩经营",
+      "date": "2026-09-27T23:49:09.218Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "某未定名战棋游戏大纲",
+      "href": "non-fiction-untitled-wargame-outline.html",
+      "excerpt": "关于战棋玩法、关卡结构与系统框架的早期构想。",
+      "date": "2026-09-27T23:49:09.216Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "小城春秋",
+      "href": "non-fiction-small-town-spring-autumn.html",
+      "excerpt": "关于一座小城的时间感与风物印象。",
+      "date": "2026-09-27T23:49:09.215Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "战争小贩：前线盛宴",
+      "href": "non-fiction-sutlers-frontier-feast.html",
+      "excerpt": "一款 2D 模拟经营类半实时的关卡游戏设想。",
+      "date": "2026-09-27T23:49:09.215Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "奇书蒙古秘史",
+      "href": "non-fiction-the-secret-history-of-the-mongols.html",
+      "excerpt": "围绕蒙古史与文本阅读展开。",
+      "date": "2026-09-27T23:49:09.215Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "平江即景",
+      "href": "non-fiction-pingjiang-impression.html",
+      "excerpt": "一篇关于地方景象与当下感受的短文。",
+      "date": "2026-09-27T23:49:09.214Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "机器人剧场",
+      "href": "non-fiction-robot-theater.html",
+      "excerpt": "关于技术、表演和叙事之间关系的评论性写作。",
+      "date": "2026-09-27T23:49:09.214Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "Mahadevi Panthon",
+      "href": "non-fiction-mahadevi-panthon.html",
+      "excerpt": "围绕神话、宗教和文化想象的笔记式文章。",
+      "date": "2026-09-27T23:49:09.213Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "远东日记",
+      "href": "non-fiction-far-east-diary.html",
+      "excerpt": "以日记体记录远方旅行和沿途见闻。",
+      "date": "2026-09-27T23:49:09.212Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "Breeze of Ancientry",
+      "href": "non-fiction-breeze-of-ancientry.html",
+      "excerpt": "英语标题的旅行文字，带有古意与边地气息。",
+      "date": "2026-09-27T23:49:09.211Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "晴空寒林",
+      "href": "non-fiction-clear-sky-cold-forest.html",
+      "excerpt": "关于高原、树林与气候印象的行走记录。",
+      "date": "2026-09-27T23:49:09.211Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "亚洲中心删节版",
+      "href": "non-fiction-asia-center-abbreviated.html",
+      "excerpt": "同一主题的删节版本，保留另一种阅读节奏。",
+      "date": "2026-09-27T23:49:09.210Z"
+    },
+    {
+      "key": "non-fiction",
+      "label": "Non-fiction",
+      "title": "亚洲中心",
+      "href": "non-fiction-asia-center.html",
+      "excerpt": "关于边疆、地理与中心感的旅行文字。",
+      "date": "2026-09-27T23:49:09.210Z"
     },
     {
       "key": "fictions",
@@ -130,24 +298,8 @@ window.NORDENBOX_CONTENT_INDEX = {
       "key": "razzmatazz",
       "label": "Razzmatazz",
       "title": "Travelling Writing",
-      "href": "razzmatazz/travellingwriting/travelling-small-town-annals.html",
-      "excerpt": "沿着荆州的南城门向东行驶，不过几分钟就到达了东城门，距离之短超过了我的理解。按照我的理解，一个城市如此之小，即使放在古代也是无法接受的。 但实际上，古时候的城墙绝对不是用来观光的，而是实实在在的城防建筑。在古代没有政府常备军和完善的国家治安体系，每一个城市都要独自面对土匪和流贼的侵扰，一个坚固的城墙就一定有存在的必要性了。现在的城市名称中，『镇』这个词汇，本质是上军事要塞的意思，意思是『军镇』，而不是现代意义的城市概念。",
-      "date": "2026-08-12T14:02:58.448Z"
-    },
-    {
-      "key": "razzmatazz",
-      "label": "Razzmatazz",
-      "title": "Travelling Writing",
       "href": "razzmatazz/travellingwriting/travelling-vladivostok.html",
       "excerpt": "很多人提起俄罗斯远东海滨城市符拉迪沃斯托克都会使用另外一个名字来称呼它：海参崴。那是因为在咸丰年间之前，这里是清朝统辖的地方。其实在更早的唐代，现在的海参崴及周边地区也曾是李氏所封的渤海都督府辖地。这就是为什么当我和一些人同去海参崴时，总是听到有人怀着明显的愤恨或者是遗憾地说那里其实是我们中国人的土地。听到这样的谈论时，我想他们的埋怨自然有些狭隘的合理成分，但是这些爱国的朋友们显然忽视了（或者说因为无知而漠视了）“中国人”这个抽象的概念从古到今都不是一个清晰的范围：孙先生曾经提出的“驱除鞑虏，恢复中华”的倡导，显然已经把清人拒之在我中华族群之外了，那么这些在这趟开往俄罗斯边境小城格罗杰克沃的国际列车上谈笑的中国人又何以确切地说它是我们中国人的土地呢？放下这些充满无聊和自相矛盾的谈论，我把注意力回到了窗外，那里已经是俄罗斯境内的山丘了。 最早在地图上看见海参崴这个地名时是在我上小学的时候，当时自作聪明地认为那里一定是一个盛产海参的地方，虽然不知道“崴”字到底为何意。当时就萌生了长大以后一定要去看看的愿望，现在回想起来大概是因为那个城市在地图上是明显地紧挨着蓝色的太平洋。对于生活在中国内陆的我来说，肯定是有相当大的诱惑。",
-      "date": "2026-08-12T14:02:58.448Z"
-    },
-    {
-      "key": "razzmatazz",
-      "label": "Razzmatazz",
-      "title": "Travelling Writing",
-      "href": "razzmatazz/travellingwriting/travelling-yarlung-tsangpo-gorge.html",
-      "excerpt": "致：《西藏人文地理》杂志社 文字编辑龙虎林先生 请斧正 &nbsp;",
       "date": "2026-08-12T14:02:58.448Z"
     },
     {
@@ -170,14 +322,6 @@ window.NORDENBOX_CONTENT_INDEX = {
       "key": "razzmatazz",
       "label": "Razzmatazz",
       "title": "Travelling Writing",
-      "href": "razzmatazz/travellingwriting/travelling-pingjiang-scenes.html",
-      "excerpt": "对苏州的印象，主要还停留在父辈们的各种黑白照片上。在那些照片里面，他们穿着千篇一律的衣服在拙政园和虎丘各自留下了许多影像。而且记忆中还记得，照片的左下角有写着“虎丘照相”等字样。这就是苏州给我的永久印象。这是一个由旅游景点组建的城市。 十年来，我经历了大漠戈壁和雪山丛林。一直以来，我对蛮荒的大自然有些许的偏爱，流连于中国西部边疆的壮丽河山之中。不过，对江南的柔风细雨，小桥流水还是有发自内心的怀念。几年前在雪中度过了几天在西湖边闲逸漫游的日子，更是一直就没有再来过南方纯粹的游玩。其实我经常往来于南京上海，却对近在咫尺的苏州却从未踏足，自己都觉得很怪。所以某一天，我突然决定，买一张火车票，前往苏州。",
-      "date": "2026-08-12T14:02:58.447Z"
-    },
-    {
-      "key": "razzmatazz",
-      "label": "Razzmatazz",
-      "title": "Travelling Writing",
       "href": "razzmatazz/travellingwriting/travelling-qinghai-petroglyphs.html",
       "excerpt": "凝固的激情-青海湖地区的岩画初探 对青海省共和县 刚察县 天峻县部分地区岩画遗址的记载及分析",
       "date": "2026-08-12T14:02:58.447Z"
@@ -194,33 +338,9 @@ window.NORDENBOX_CONTENT_INDEX = {
       "key": "razzmatazz",
       "label": "Razzmatazz",
       "title": "Travelling Writing",
-      "href": "razzmatazz/travellingwriting/travelling-far-east-diary.html",
-      "excerpt": "远东日记 &nbsp;",
-      "date": "2026-08-12T14:02:58.446Z"
-    },
-    {
-      "key": "razzmatazz",
-      "label": "Razzmatazz",
-      "title": "Travelling Writing",
       "href": "razzmatazz/travellingwriting/travelling-kashgar-sketches.html",
       "excerpt": "喀什嘎尔，是喀什的全称，我觉得还是全称比较中听。这里的人将喀什发音为“哈市”，有好几次我误解为对哈尔滨的简称，因为东北人是这样称呼它的。 我没去过新疆别的地方，但是听说这里是新疆唯一还有大规模老房子的地方，我相信了，从印象里面，新疆别的地方和汉地没有什么区别，汉人也充斥大街，让你感觉不到在新疆，一个维吾尔人的自治省。",
       "date": "2026-08-12T14:02:58.446Z"
-    },
-    {
-      "key": "razzmatazz",
-      "label": "Razzmatazz",
-      "title": "Travelling Writing",
-      "href": "razzmatazz/travellingwriting/travelling-center-of-asia.html",
-      "excerpt": "小镇位处沙漠腹地，这里是312省道和318省道的交汇处。但是这里非常的小，唯一值得注意的是一个武警公安边防连和一个警察派出所。他们的建筑还多少齐整，迥异于这里毫无特色的土黄色平房。派出所的小伙子在打篮球，边防连的士兵在营房里面耷拉着脑袋，似乎对这了无生趣的小镇毫无兴趣。 最繁忙的地方，当属于这里唯一的一家加油站。川流不息的大货车搞的这里喧闹异常。我向一个皮肤黝黑，中等身材，穿着中国石油加油站制服的工作人员打听，对面来的一辆中巴是哪里来的，他看了看说，可能是宁夏的。我才注意到这辆汽车是宁E。车上下来很多同样皮肤黝黑的当地农民，夹杂着妇女儿童。我问他这里什么时候人比较多，他回答说国庆节假期的时候，全国各地的人都过来看胡杨林。车队加油都排队好几百米。但是平时则极为萧条。",
-      "date": "2026-08-12T14:02:58.445Z"
-    },
-    {
-      "key": "razzmatazz",
-      "label": "Razzmatazz",
-      "title": "Travelling Writing",
-      "href": "razzmatazz/travellingwriting/travelling-clear-sky-cold-forest.html",
-      "excerpt": "外面气温大约是零下四十度，但是我眼前的地上已经长出一寸多长的绿草，塑料大棚里面的温度大约三十度左右，两个大火炉上有两个大锅里面沸腾着水，所以室内的空气充满着潮湿的水汽。这潮湿的水汽里面还混合着人类的各种气味，这里面包含着女人的气息，腐烂白菜和新鲜桦木的味道。 这间伐木工人居住的双层塑料布大棚外面就是绵绵笼罩在寒冷空气中大兴安岭，空气由于寒冷变得灰蒙蒙的，细沙一般，绝不融化的干雪就厚厚的堆积在稀疏的桦树林间。这里正在经受五十年来最寒冷的寒冬。工人穿着单薄的毛衣和工作服，驾驶着泛着青光的机械履带车在拉动已经砍伐倒地的树木。这些碗口粗的树木已经是现在唯一能砍的树木，巨大的粗木在几十年前的“林区会战”中就砍伐一空。 这些连缀在一起的树木如同尸体一样，被一根钢丝绳拉拽着，穿越林间的小道，红色的桦树皮被刮到雪中，久而久之，这条混合着红色桦树皮和干雪的道路已经“血迹斑斑”。冰冷的钢铁履带无情的压出一条条道路，将树木集中在一个装载场，两条高挂的钢丝绳将这些被砍伐的树木吊装到一辆卡车上，然后卡车缓缓开走。",
-      "date": "2026-08-12T14:02:58.445Z"
     },
     {
       "key": "razzmatazz",
@@ -237,22 +357,6 @@ window.NORDENBOX_CONTENT_INDEX = {
       "href": "razzmatazz/travellingwriting/travelling-detour-around-the-city.html",
       "excerpt": "从咸阳机场到阎良大约要一个多小时，司机将车开到飞快，在夜幕降临的三秦大地，四周一片荒芜，几座小山丘一样的东西在远处，我估计是汉代的陵墓。果然一闪而过的路牌上有显示：“汉阳陵”。我知道这些陵墓到处都是，在长安建都的朝代非常多，历代以来的陵墓数不胜数，但是大多数陵墓早就被历代的盗墓者盗窃一空。 汽车的时速快超过140公里，发动的噪音都快超过了风噪。而眼前的道路根本没有隔离带，对面来的汽车在巨大而闪耀的车灯下呼啸而过。我下意识的拉近安全带。但是司机根本没有减速的意思，汽车在大货车中间穿行，我感觉稍不留神就被货车挤压，不过看司机开那么快满不在乎，我估计他是有自信的。毕竟作为西安的一家飞机公司的司机，这种接送任务是常有的事情。",
       "date": "2026-08-12T14:02:58.445Z"
-    },
-    {
-      "key": "razzmatazz",
-      "label": "Razzmatazz",
-      "title": "Travelling Writing",
-      "href": "razzmatazz/travellingwriting/travelling-breeze-of-ancientry.html",
-      "excerpt": "",
-      "date": "2026-08-12T14:02:58.444Z"
-    },
-    {
-      "key": "projects",
-      "label": "Projects",
-      "title": "SULTERS：Frontier",
-      "href": "projects/projects-sulters.html",
-      "excerpt": "战争中的前线小贩经营",
-      "date": "2026-08-12T14:02:58.443Z"
     },
     {
       "key": "razzmatazz",
@@ -289,54 +393,6 @@ window.NORDENBOX_CONTENT_INDEX = {
     {
       "key": "non-fiction",
       "label": "Non-fiction",
-      "title": "雅鲁藏布峡谷考察记",
-      "href": "non-fiction-yaluzangbu-canyon-notes.html",
-      "excerpt": "关于地理观察、行程和现场所见的记录。",
-      "date": "2026-08-12T14:02:58.441Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
-      "title": "小城春秋",
-      "href": "non-fiction-small-town-spring-autumn.html",
-      "excerpt": "关于一座小城的时间感与风物印象。",
-      "date": "2026-08-12T14:02:58.440Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
-      "title": "战争小贩：前线盛宴",
-      "href": "non-fiction-sutlers-frontier-feast.html",
-      "excerpt": "一款 2D 模拟经营类半实时的关卡游戏设想。",
-      "date": "2026-08-12T14:02:58.440Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
-      "title": "奇书蒙古秘史",
-      "href": "non-fiction-the-secret-history-of-the-mongols.html",
-      "excerpt": "围绕蒙古史与文本阅读展开。",
-      "date": "2026-08-12T14:02:58.440Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
-      "title": "某未定名战棋游戏大纲",
-      "href": "non-fiction-untitled-wargame-outline.html",
-      "excerpt": "关于战棋玩法、关卡结构与系统框架的早期构想。",
-      "date": "2026-08-12T14:02:58.440Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
-      "title": "平江即景",
-      "href": "non-fiction-pingjiang-impression.html",
-      "excerpt": "一篇关于地方景象与当下感受的短文。",
-      "date": "2026-08-12T14:02:58.439Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
       "title": "凝固的激情-青海湖地区的岩画初探",
       "href": "non-fiction-qinghai-lake-rock-art.html",
       "excerpt": "关于青海湖地区岩画与历史图像的初步观察。",
@@ -345,25 +401,9 @@ window.NORDENBOX_CONTENT_INDEX = {
     {
       "key": "non-fiction",
       "label": "Non-fiction",
-      "title": "机器人剧场",
-      "href": "non-fiction-robot-theater.html",
-      "excerpt": "关于技术、表演和叙事之间关系的评论性写作。",
-      "date": "2026-08-12T14:02:58.439Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
       "title": "鹰翅下的土地",
       "href": "non-fiction-land-beneath-eagle-wings.html",
       "excerpt": "带有地理视角和行旅经验的非虚构写作。",
-      "date": "2026-08-12T14:02:58.438Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
-      "title": "Mahadevi Panthon",
-      "href": "non-fiction-mahadevi-panthon.html",
-      "excerpt": "围绕神话、宗教和文化想象的笔记式文章。",
       "date": "2026-08-12T14:02:58.438Z"
     },
     {
@@ -409,50 +449,10 @@ window.NORDENBOX_CONTENT_INDEX = {
     {
       "key": "non-fiction",
       "label": "Non-fiction",
-      "title": "远东日记",
-      "href": "non-fiction-far-east-diary.html",
-      "excerpt": "以日记体记录远方旅行和沿途见闻。",
-      "date": "2026-08-12T14:02:58.436Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
-      "title": "Breeze of Ancientry",
-      "href": "non-fiction-breeze-of-ancientry.html",
-      "excerpt": "英语标题的旅行文字，带有古意与边地气息。",
-      "date": "2026-08-12T14:02:58.435Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
-      "title": "晴空寒林",
-      "href": "non-fiction-clear-sky-cold-forest.html",
-      "excerpt": "关于高原、树林与气候印象的行走记录。",
-      "date": "2026-08-12T14:02:58.435Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
       "title": "达赖诞生地游记",
       "href": "non-fiction-dalai-birthplace-travelogue.html",
       "excerpt": "围绕地点、历史与行走经验的旅行文字。",
       "date": "2026-08-12T14:02:58.435Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
-      "title": "亚洲中心删节版",
-      "href": "non-fiction-asia-center-abbreviated.html",
-      "excerpt": "同一主题的删节版本，保留另一种阅读节奏。",
-      "date": "2026-08-12T14:02:58.434Z"
-    },
-    {
-      "key": "non-fiction",
-      "label": "Non-fiction",
-      "title": "亚洲中心",
-      "href": "non-fiction-asia-center.html",
-      "excerpt": "关于边疆、地理与中心感的旅行文字。",
-      "date": "2026-08-12T14:02:58.434Z"
     },
     {
       "key": "fictions",
@@ -626,7 +626,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "红尘",
         "href": "fictions/fiction-red-dust.html",
         "excerpt": "一部从火车站和河南小城展开的电影剧本。",
-        "date": "2026-09-27T22:59:35.459Z",
+        "date": "2026-09-27T23:51:33.197Z",
         "format": "screenplay"
       },
       {
@@ -635,7 +635,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "战警之无悔",
         "href": "fictions/fiction-police-no-regrets.html",
         "excerpt": "一部以特警行动为背景的电影剧本。",
-        "date": "2026-09-27T22:59:35.453Z",
+        "date": "2026-09-27T23:51:33.185Z",
         "format": "screenplay"
       },
       {
@@ -644,7 +644,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "Shame",
         "href": "fictions/fiction-shame.html",
         "excerpt": "A screenplay about a girl, memory, and the private violence hidden inside an ordinary home.",
-        "date": "2026-09-27T22:59:35.449Z",
+        "date": "2026-09-27T23:51:33.178Z",
         "format": "screenplay"
       },
       {
@@ -653,7 +653,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "中央饭店",
         "href": "fictions/fiction-central-hotel.html",
         "excerpt": "电影剧本。北京，2016 年冬天，一座高级妇产医院和一间中央饭店。",
-        "date": "2026-09-27T22:59:35.447Z",
+        "date": "2026-09-27T23:51:33.175Z",
         "format": "screenplay"
       },
       {
@@ -662,7 +662,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "未定名之红楼梦作品",
         "href": "fictions/fiction-untitled-dream-of-the-red-chamber.html",
         "excerpt": "以惜春等人物为中心，延伸红楼梦之后的故事。",
-        "date": "2026-09-27T22:59:34.556Z",
+        "date": "2026-09-27T23:51:31.953Z",
         "format": "literature"
       },
       {
@@ -671,7 +671,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "三国心事",
         "href": "fictions/fiction-three-kingdoms-reflections.html",
         "excerpt": "从历史人物的内心出发，重新凝视乱世、权力、爱情与自我。",
-        "date": "2026-09-27T22:59:34.461Z",
+        "date": "2026-09-27T23:51:31.857Z",
         "format": "literature"
       },
       {
@@ -680,7 +680,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "远东特快",
         "href": "fictions/fiction-far-east-express.html",
         "excerpt": "电影剧本。关于一列列车、旧日电影与人物命运的故事。",
-        "date": "2026-09-27T22:59:34.378Z",
+        "date": "2026-09-27T23:51:31.770Z",
         "format": "screenplay"
       },
       {
@@ -689,7 +689,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "温暖的机器 · The Warm Machine",
         "href": "fictions/fiction-warm-machine.html",
         "excerpt": "一部以电子邮件、记忆和数字存在为线索展开的小说。",
-        "date": "2026-09-27T22:59:34.372Z",
+        "date": "2026-09-27T23:51:31.760Z",
         "format": "literature"
       },
       {
@@ -698,7 +698,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "The Funeral V7.5",
         "href": "fictions/fiction-the-funeral.html",
         "excerpt": "电影剧本。一场葬礼，以及围绕病床与记忆展开的故事。",
-        "date": "2026-09-27T22:59:34.268Z",
+        "date": "2026-09-27T23:51:31.646Z",
         "format": "screenplay"
       },
       {
@@ -707,7 +707,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "Lilie 2.0",
         "href": "fictions/fiction-lilie-2.html",
         "excerpt": "电影剧本。雪地、警察与一段逐渐展开的往事。",
-        "date": "2026-09-27T22:59:34.262Z",
+        "date": "2026-09-27T23:51:31.635Z",
         "format": "screenplay"
       },
       {
@@ -716,7 +716,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "New Republic",
         "href": "fictions/fiction-new-republic.html",
         "excerpt": "一部从 2041 年的海上航行展开的长篇文学作品，写希望、混乱与虚荣。",
-        "date": "2026-09-27T22:59:34.256Z",
+        "date": "2026-09-27T23:51:31.624Z",
         "format": "literature"
       },
       {
@@ -725,7 +725,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "The Conjure",
         "href": "fictions/fiction-conjuring.html",
         "excerpt": "一位失意的心灵魔术师，受邀前往海边庄园调查一桩隐秘案件。",
-        "date": "2026-09-27T22:59:34.141Z",
+        "date": "2026-09-27T23:51:31.508Z",
         "format": "screenplay"
       },
       {
@@ -734,7 +734,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "A Kill From Heaven",
         "href": "fictions/fiction-a-kill-from-heaven.html",
         "excerpt": "电影剧本。一个小镇、一次秘密行动，以及逐渐逼近的危险。",
-        "date": "2026-09-27T22:59:34.133Z",
+        "date": "2026-09-27T23:51:31.489Z",
         "format": "screenplay"
       },
       {
@@ -778,6 +778,110 @@ window.NORDENBOX_CONTENT_INDEX = {
       {
         "key": "non-fiction",
         "label": "Non-fiction",
+        "title": "雅鲁藏布峡谷考察记",
+        "href": "non-fiction-yaluzangbu-canyon-notes.html",
+        "excerpt": "关于地理观察、行程和现场所见的记录。",
+        "date": "2026-09-27T23:51:33.303Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "某未定名战棋游戏大纲",
+        "href": "non-fiction-untitled-wargame-outline.html",
+        "excerpt": "关于战棋玩法、关卡结构与系统框架的早期构想。",
+        "date": "2026-09-27T23:49:09.216Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "小城春秋",
+        "href": "non-fiction-small-town-spring-autumn.html",
+        "excerpt": "关于一座小城的时间感与风物印象。",
+        "date": "2026-09-27T23:49:09.215Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "战争小贩：前线盛宴",
+        "href": "non-fiction-sutlers-frontier-feast.html",
+        "excerpt": "一款 2D 模拟经营类半实时的关卡游戏设想。",
+        "date": "2026-09-27T23:49:09.215Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "奇书蒙古秘史",
+        "href": "non-fiction-the-secret-history-of-the-mongols.html",
+        "excerpt": "围绕蒙古史与文本阅读展开。",
+        "date": "2026-09-27T23:49:09.215Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "平江即景",
+        "href": "non-fiction-pingjiang-impression.html",
+        "excerpt": "一篇关于地方景象与当下感受的短文。",
+        "date": "2026-09-27T23:49:09.214Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "机器人剧场",
+        "href": "non-fiction-robot-theater.html",
+        "excerpt": "关于技术、表演和叙事之间关系的评论性写作。",
+        "date": "2026-09-27T23:49:09.214Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "Mahadevi Panthon",
+        "href": "non-fiction-mahadevi-panthon.html",
+        "excerpt": "围绕神话、宗教和文化想象的笔记式文章。",
+        "date": "2026-09-27T23:49:09.213Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "远东日记",
+        "href": "non-fiction-far-east-diary.html",
+        "excerpt": "以日记体记录远方旅行和沿途见闻。",
+        "date": "2026-09-27T23:49:09.212Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "Breeze of Ancientry",
+        "href": "non-fiction-breeze-of-ancientry.html",
+        "excerpt": "英语标题的旅行文字，带有古意与边地气息。",
+        "date": "2026-09-27T23:49:09.211Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "晴空寒林",
+        "href": "non-fiction-clear-sky-cold-forest.html",
+        "excerpt": "关于高原、树林与气候印象的行走记录。",
+        "date": "2026-09-27T23:49:09.211Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "亚洲中心删节版",
+        "href": "non-fiction-asia-center-abbreviated.html",
+        "excerpt": "同一主题的删节版本，保留另一种阅读节奏。",
+        "date": "2026-09-27T23:49:09.210Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
+        "title": "亚洲中心",
+        "href": "non-fiction-asia-center.html",
+        "excerpt": "关于边疆、地理与中心感的旅行文字。",
+        "date": "2026-09-27T23:49:09.210Z"
+      },
+      {
+        "key": "non-fiction",
+        "label": "Non-fiction",
         "title": "Vladivostok",
         "href": "non-fiction-vladivostok.html",
         "excerpt": "以城市名命名的旅行记录。",
@@ -794,54 +898,6 @@ window.NORDENBOX_CONTENT_INDEX = {
       {
         "key": "non-fiction",
         "label": "Non-fiction",
-        "title": "雅鲁藏布峡谷考察记",
-        "href": "non-fiction-yaluzangbu-canyon-notes.html",
-        "excerpt": "关于地理观察、行程和现场所见的记录。",
-        "date": "2026-08-12T14:02:58.441Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
-        "title": "小城春秋",
-        "href": "non-fiction-small-town-spring-autumn.html",
-        "excerpt": "关于一座小城的时间感与风物印象。",
-        "date": "2026-08-12T14:02:58.440Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
-        "title": "战争小贩：前线盛宴",
-        "href": "non-fiction-sutlers-frontier-feast.html",
-        "excerpt": "一款 2D 模拟经营类半实时的关卡游戏设想。",
-        "date": "2026-08-12T14:02:58.440Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
-        "title": "奇书蒙古秘史",
-        "href": "non-fiction-the-secret-history-of-the-mongols.html",
-        "excerpt": "围绕蒙古史与文本阅读展开。",
-        "date": "2026-08-12T14:02:58.440Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
-        "title": "某未定名战棋游戏大纲",
-        "href": "non-fiction-untitled-wargame-outline.html",
-        "excerpt": "关于战棋玩法、关卡结构与系统框架的早期构想。",
-        "date": "2026-08-12T14:02:58.440Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
-        "title": "平江即景",
-        "href": "non-fiction-pingjiang-impression.html",
-        "excerpt": "一篇关于地方景象与当下感受的短文。",
-        "date": "2026-08-12T14:02:58.439Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
         "title": "凝固的激情-青海湖地区的岩画初探",
         "href": "non-fiction-qinghai-lake-rock-art.html",
         "excerpt": "关于青海湖地区岩画与历史图像的初步观察。",
@@ -850,25 +906,9 @@ window.NORDENBOX_CONTENT_INDEX = {
       {
         "key": "non-fiction",
         "label": "Non-fiction",
-        "title": "机器人剧场",
-        "href": "non-fiction-robot-theater.html",
-        "excerpt": "关于技术、表演和叙事之间关系的评论性写作。",
-        "date": "2026-08-12T14:02:58.439Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
         "title": "鹰翅下的土地",
         "href": "non-fiction-land-beneath-eagle-wings.html",
         "excerpt": "带有地理视角和行旅经验的非虚构写作。",
-        "date": "2026-08-12T14:02:58.438Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
-        "title": "Mahadevi Panthon",
-        "href": "non-fiction-mahadevi-panthon.html",
-        "excerpt": "围绕神话、宗教和文化想象的笔记式文章。",
         "date": "2026-08-12T14:02:58.438Z"
       },
       {
@@ -914,50 +954,10 @@ window.NORDENBOX_CONTENT_INDEX = {
       {
         "key": "non-fiction",
         "label": "Non-fiction",
-        "title": "远东日记",
-        "href": "non-fiction-far-east-diary.html",
-        "excerpt": "以日记体记录远方旅行和沿途见闻。",
-        "date": "2026-08-12T14:02:58.436Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
-        "title": "Breeze of Ancientry",
-        "href": "non-fiction-breeze-of-ancientry.html",
-        "excerpt": "英语标题的旅行文字，带有古意与边地气息。",
-        "date": "2026-08-12T14:02:58.435Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
-        "title": "晴空寒林",
-        "href": "non-fiction-clear-sky-cold-forest.html",
-        "excerpt": "关于高原、树林与气候印象的行走记录。",
-        "date": "2026-08-12T14:02:58.435Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
         "title": "达赖诞生地游记",
         "href": "non-fiction-dalai-birthplace-travelogue.html",
         "excerpt": "围绕地点、历史与行走经验的旅行文字。",
         "date": "2026-08-12T14:02:58.435Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
-        "title": "亚洲中心删节版",
-        "href": "non-fiction-asia-center-abbreviated.html",
-        "excerpt": "同一主题的删节版本，保留另一种阅读节奏。",
-        "date": "2026-08-12T14:02:58.434Z"
-      },
-      {
-        "key": "non-fiction",
-        "label": "Non-fiction",
-        "title": "亚洲中心",
-        "href": "non-fiction-asia-center.html",
-        "excerpt": "关于边疆、地理与中心感的旅行文字。",
-        "date": "2026-08-12T14:02:58.434Z"
       }
     ],
     "projects": [
@@ -967,7 +967,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "SULTERS：Frontier",
         "href": "projects/projects-sulters.html",
         "excerpt": "战争中的前线小贩经营",
-        "date": "2026-08-12T14:02:58.443Z"
+        "date": "2026-09-27T23:49:09.218Z"
       },
       {
         "key": "projects",
@@ -983,9 +983,57 @@ window.NORDENBOX_CONTENT_INDEX = {
         "key": "razzmatazz",
         "label": "Razzmatazz",
         "title": "Travelling Writing",
+        "href": "razzmatazz/travellingwriting/travelling-yarlung-tsangpo-gorge.html",
+        "excerpt": "致：《西藏人文地理》杂志社 文字编辑龙虎林先生 请斧正 &nbsp;",
+        "date": "2026-09-27T23:51:33.309Z"
+      },
+      {
+        "key": "razzmatazz",
+        "label": "Razzmatazz",
+        "title": "Travelling Writing",
         "href": "razzmatazz/travellingwriting/travelling-small-town-annals.html",
         "excerpt": "沿着荆州的南城门向东行驶，不过几分钟就到达了东城门，距离之短超过了我的理解。按照我的理解，一个城市如此之小，即使放在古代也是无法接受的。 但实际上，古时候的城墙绝对不是用来观光的，而是实实在在的城防建筑。在古代没有政府常备军和完善的国家治安体系，每一个城市都要独自面对土匪和流贼的侵扰，一个坚固的城墙就一定有存在的必要性了。现在的城市名称中，『镇』这个词汇，本质是上军事要塞的意思，意思是『军镇』，而不是现代意义的城市概念。",
-        "date": "2026-08-12T14:02:58.448Z"
+        "date": "2026-09-27T23:49:09.223Z"
+      },
+      {
+        "key": "razzmatazz",
+        "label": "Razzmatazz",
+        "title": "Travelling Writing",
+        "href": "razzmatazz/travellingwriting/travelling-pingjiang-scenes.html",
+        "excerpt": "对苏州的印象，主要还停留在父辈们的各种黑白照片上。在那些照片里面，他们穿着千篇一律的衣服在拙政园和虎丘各自留下了许多影像。而且记忆中还记得，照片的左下角有写着“虎丘照相”等字样。这就是苏州给我的永久印象。这是一个由旅游景点组建的城市。 十年来，我经历了大漠戈壁和雪山丛林。一直以来，我对蛮荒的大自然有些许的偏爱，流连于中国西部边疆的壮丽河山之中。不过，对江南的柔风细雨，小桥流水还是有发自内心的怀念。几年前在雪中度过了几天在西湖边闲逸漫游的日子，更是一直就没有再来过南方纯粹的游玩。其实我经常往来于南京上海，却对近在咫尺的苏州却从未踏足，自己都觉得很怪。所以某一天，我突然决定，买一张火车票，前往苏州。",
+        "date": "2026-09-27T23:49:09.222Z"
+      },
+      {
+        "key": "razzmatazz",
+        "label": "Razzmatazz",
+        "title": "Travelling Writing",
+        "href": "razzmatazz/travellingwriting/travelling-far-east-diary.html",
+        "excerpt": "远东日记 &nbsp;",
+        "date": "2026-09-27T23:49:09.221Z"
+      },
+      {
+        "key": "razzmatazz",
+        "label": "Razzmatazz",
+        "title": "Travelling Writing",
+        "href": "razzmatazz/travellingwriting/travelling-center-of-asia.html",
+        "excerpt": "小镇位处沙漠腹地，这里是312省道和318省道的交汇处。但是这里非常的小，唯一值得注意的是一个武警公安边防连和一个警察派出所。他们的建筑还多少齐整，迥异于这里毫无特色的土黄色平房。派出所的小伙子在打篮球，边防连的士兵在营房里面耷拉着脑袋，似乎对这了无生趣的小镇毫无兴趣。 最繁忙的地方，当属于这里唯一的一家加油站。川流不息的大货车搞的这里喧闹异常。我向一个皮肤黝黑，中等身材，穿着中国石油加油站制服的工作人员打听，对面来的一辆中巴是哪里来的，他看了看说，可能是宁夏的。我才注意到这辆汽车是宁E。车上下来很多同样皮肤黝黑的当地农民，夹杂着妇女儿童。我问他这里什么时候人比较多，他回答说国庆节假期的时候，全国各地的人都过来看胡杨林。车队加油都排队好几百米。但是平时则极为萧条。",
+        "date": "2026-09-27T23:49:09.220Z"
+      },
+      {
+        "key": "razzmatazz",
+        "label": "Razzmatazz",
+        "title": "Travelling Writing",
+        "href": "razzmatazz/travellingwriting/travelling-clear-sky-cold-forest.html",
+        "excerpt": "外面气温大约是零下四十度，但是我眼前的地上已经长出一寸多长的绿草，塑料大棚里面的温度大约三十度左右，两个大火炉上有两个大锅里面沸腾着水，所以室内的空气充满着潮湿的水汽。这潮湿的水汽里面还混合着人类的各种气味，这里面包含着女人的气息，腐烂白菜和新鲜桦木的味道。 这间伐木工人居住的双层塑料布大棚外面就是绵绵笼罩在寒冷空气中大兴安岭，空气由于寒冷变得灰蒙蒙的，细沙一般，绝不融化的干雪就厚厚的堆积在稀疏的桦树林间。这里正在经受五十年来最寒冷的寒冬。工人穿着单薄的毛衣和工作服，驾驶着泛着青光的机械履带车在拉动已经砍伐倒地的树木。这些碗口粗的树木已经是现在唯一能砍的树木，巨大的粗木在几十年前的“林区会战”中就砍伐一空。 这些连缀在一起的树木如同尸体一样，被一根钢丝绳拉拽着，穿越林间的小道，红色的桦树皮被刮到雪中，久而久之，这条混合着红色桦树皮和干雪的道路已经“血迹斑斑”。冰冷的钢铁履带无情的压出一条条道路，将树木集中在一个装载场，两条高挂的钢丝绳将这些被砍伐的树木吊装到一辆卡车上，然后卡车缓缓开走。",
+        "date": "2026-09-27T23:49:09.220Z"
+      },
+      {
+        "key": "razzmatazz",
+        "label": "Razzmatazz",
+        "title": "Travelling Writing",
+        "href": "razzmatazz/travellingwriting/travelling-breeze-of-ancientry.html",
+        "excerpt": "",
+        "date": "2026-09-27T23:49:09.219Z"
       },
       {
         "key": "razzmatazz",
@@ -993,14 +1041,6 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "Travelling Writing",
         "href": "razzmatazz/travellingwriting/travelling-vladivostok.html",
         "excerpt": "很多人提起俄罗斯远东海滨城市符拉迪沃斯托克都会使用另外一个名字来称呼它：海参崴。那是因为在咸丰年间之前，这里是清朝统辖的地方。其实在更早的唐代，现在的海参崴及周边地区也曾是李氏所封的渤海都督府辖地。这就是为什么当我和一些人同去海参崴时，总是听到有人怀着明显的愤恨或者是遗憾地说那里其实是我们中国人的土地。听到这样的谈论时，我想他们的埋怨自然有些狭隘的合理成分，但是这些爱国的朋友们显然忽视了（或者说因为无知而漠视了）“中国人”这个抽象的概念从古到今都不是一个清晰的范围：孙先生曾经提出的“驱除鞑虏，恢复中华”的倡导，显然已经把清人拒之在我中华族群之外了，那么这些在这趟开往俄罗斯边境小城格罗杰克沃的国际列车上谈笑的中国人又何以确切地说它是我们中国人的土地呢？放下这些充满无聊和自相矛盾的谈论，我把注意力回到了窗外，那里已经是俄罗斯境内的山丘了。 最早在地图上看见海参崴这个地名时是在我上小学的时候，当时自作聪明地认为那里一定是一个盛产海参的地方，虽然不知道“崴”字到底为何意。当时就萌生了长大以后一定要去看看的愿望，现在回想起来大概是因为那个城市在地图上是明显地紧挨着蓝色的太平洋。对于生活在中国内陆的我来说，肯定是有相当大的诱惑。",
-        "date": "2026-08-12T14:02:58.448Z"
-      },
-      {
-        "key": "razzmatazz",
-        "label": "Razzmatazz",
-        "title": "Travelling Writing",
-        "href": "razzmatazz/travellingwriting/travelling-yarlung-tsangpo-gorge.html",
-        "excerpt": "致：《西藏人文地理》杂志社 文字编辑龙虎林先生 请斧正 &nbsp;",
         "date": "2026-08-12T14:02:58.448Z"
       },
       {
@@ -1023,14 +1063,6 @@ window.NORDENBOX_CONTENT_INDEX = {
         "key": "razzmatazz",
         "label": "Razzmatazz",
         "title": "Travelling Writing",
-        "href": "razzmatazz/travellingwriting/travelling-pingjiang-scenes.html",
-        "excerpt": "对苏州的印象，主要还停留在父辈们的各种黑白照片上。在那些照片里面，他们穿着千篇一律的衣服在拙政园和虎丘各自留下了许多影像。而且记忆中还记得，照片的左下角有写着“虎丘照相”等字样。这就是苏州给我的永久印象。这是一个由旅游景点组建的城市。 十年来，我经历了大漠戈壁和雪山丛林。一直以来，我对蛮荒的大自然有些许的偏爱，流连于中国西部边疆的壮丽河山之中。不过，对江南的柔风细雨，小桥流水还是有发自内心的怀念。几年前在雪中度过了几天在西湖边闲逸漫游的日子，更是一直就没有再来过南方纯粹的游玩。其实我经常往来于南京上海，却对近在咫尺的苏州却从未踏足，自己都觉得很怪。所以某一天，我突然决定，买一张火车票，前往苏州。",
-        "date": "2026-08-12T14:02:58.447Z"
-      },
-      {
-        "key": "razzmatazz",
-        "label": "Razzmatazz",
-        "title": "Travelling Writing",
         "href": "razzmatazz/travellingwriting/travelling-qinghai-petroglyphs.html",
         "excerpt": "凝固的激情-青海湖地区的岩画初探 对青海省共和县 刚察县 天峻县部分地区岩画遗址的记载及分析",
         "date": "2026-08-12T14:02:58.447Z"
@@ -1047,33 +1079,9 @@ window.NORDENBOX_CONTENT_INDEX = {
         "key": "razzmatazz",
         "label": "Razzmatazz",
         "title": "Travelling Writing",
-        "href": "razzmatazz/travellingwriting/travelling-far-east-diary.html",
-        "excerpt": "远东日记 &nbsp;",
-        "date": "2026-08-12T14:02:58.446Z"
-      },
-      {
-        "key": "razzmatazz",
-        "label": "Razzmatazz",
-        "title": "Travelling Writing",
         "href": "razzmatazz/travellingwriting/travelling-kashgar-sketches.html",
         "excerpt": "喀什嘎尔，是喀什的全称，我觉得还是全称比较中听。这里的人将喀什发音为“哈市”，有好几次我误解为对哈尔滨的简称，因为东北人是这样称呼它的。 我没去过新疆别的地方，但是听说这里是新疆唯一还有大规模老房子的地方，我相信了，从印象里面，新疆别的地方和汉地没有什么区别，汉人也充斥大街，让你感觉不到在新疆，一个维吾尔人的自治省。",
         "date": "2026-08-12T14:02:58.446Z"
-      },
-      {
-        "key": "razzmatazz",
-        "label": "Razzmatazz",
-        "title": "Travelling Writing",
-        "href": "razzmatazz/travellingwriting/travelling-center-of-asia.html",
-        "excerpt": "小镇位处沙漠腹地，这里是312省道和318省道的交汇处。但是这里非常的小，唯一值得注意的是一个武警公安边防连和一个警察派出所。他们的建筑还多少齐整，迥异于这里毫无特色的土黄色平房。派出所的小伙子在打篮球，边防连的士兵在营房里面耷拉着脑袋，似乎对这了无生趣的小镇毫无兴趣。 最繁忙的地方，当属于这里唯一的一家加油站。川流不息的大货车搞的这里喧闹异常。我向一个皮肤黝黑，中等身材，穿着中国石油加油站制服的工作人员打听，对面来的一辆中巴是哪里来的，他看了看说，可能是宁夏的。我才注意到这辆汽车是宁E。车上下来很多同样皮肤黝黑的当地农民，夹杂着妇女儿童。我问他这里什么时候人比较多，他回答说国庆节假期的时候，全国各地的人都过来看胡杨林。车队加油都排队好几百米。但是平时则极为萧条。",
-        "date": "2026-08-12T14:02:58.445Z"
-      },
-      {
-        "key": "razzmatazz",
-        "label": "Razzmatazz",
-        "title": "Travelling Writing",
-        "href": "razzmatazz/travellingwriting/travelling-clear-sky-cold-forest.html",
-        "excerpt": "外面气温大约是零下四十度，但是我眼前的地上已经长出一寸多长的绿草，塑料大棚里面的温度大约三十度左右，两个大火炉上有两个大锅里面沸腾着水，所以室内的空气充满着潮湿的水汽。这潮湿的水汽里面还混合着人类的各种气味，这里面包含着女人的气息，腐烂白菜和新鲜桦木的味道。 这间伐木工人居住的双层塑料布大棚外面就是绵绵笼罩在寒冷空气中大兴安岭，空气由于寒冷变得灰蒙蒙的，细沙一般，绝不融化的干雪就厚厚的堆积在稀疏的桦树林间。这里正在经受五十年来最寒冷的寒冬。工人穿着单薄的毛衣和工作服，驾驶着泛着青光的机械履带车在拉动已经砍伐倒地的树木。这些碗口粗的树木已经是现在唯一能砍的树木，巨大的粗木在几十年前的“林区会战”中就砍伐一空。 这些连缀在一起的树木如同尸体一样，被一根钢丝绳拉拽着，穿越林间的小道，红色的桦树皮被刮到雪中，久而久之，这条混合着红色桦树皮和干雪的道路已经“血迹斑斑”。冰冷的钢铁履带无情的压出一条条道路，将树木集中在一个装载场，两条高挂的钢丝绳将这些被砍伐的树木吊装到一辆卡车上，然后卡车缓缓开走。",
-        "date": "2026-08-12T14:02:58.445Z"
       },
       {
         "key": "razzmatazz",
@@ -1090,14 +1098,6 @@ window.NORDENBOX_CONTENT_INDEX = {
         "href": "razzmatazz/travellingwriting/travelling-detour-around-the-city.html",
         "excerpt": "从咸阳机场到阎良大约要一个多小时，司机将车开到飞快，在夜幕降临的三秦大地，四周一片荒芜，几座小山丘一样的东西在远处，我估计是汉代的陵墓。果然一闪而过的路牌上有显示：“汉阳陵”。我知道这些陵墓到处都是，在长安建都的朝代非常多，历代以来的陵墓数不胜数，但是大多数陵墓早就被历代的盗墓者盗窃一空。 汽车的时速快超过140公里，发动的噪音都快超过了风噪。而眼前的道路根本没有隔离带，对面来的汽车在巨大而闪耀的车灯下呼啸而过。我下意识的拉近安全带。但是司机根本没有减速的意思，汽车在大货车中间穿行，我感觉稍不留神就被货车挤压，不过看司机开那么快满不在乎，我估计他是有自信的。毕竟作为西安的一家飞机公司的司机，这种接送任务是常有的事情。",
         "date": "2026-08-12T14:02:58.445Z"
-      },
-      {
-        "key": "razzmatazz",
-        "label": "Razzmatazz",
-        "title": "Travelling Writing",
-        "href": "razzmatazz/travellingwriting/travelling-breeze-of-ancientry.html",
-        "excerpt": "",
-        "date": "2026-08-12T14:02:58.444Z"
       },
       {
         "key": "razzmatazz",
