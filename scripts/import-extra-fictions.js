@@ -19,11 +19,12 @@ const works = [
     format: 'office',
   },
   {
-    source: 'Conjuring.docx',
+    source: 'The Conjure.fadein',
     slug: 'conjuring',
-    title: 'Conjuring',
-    description: 'A film treatment about a fallen mental magician who is asked to uncover a crime inside a secluded estate.',
-    format: 'office',
+    title: 'The Conjure',
+    description: 'A screenplay set around a mental magician, a mysterious seaside estate, and a hidden crime.',
+    format: 'fadein',
+    hideDescription: true,
   },
   {
     source: 'NewRepublic_修订版.docx',
@@ -32,6 +33,8 @@ const works = [
     description: '一部从 2041 年的海上航行展开的长篇文学作品，写希望、混乱与虚荣。',
     format: 'office',
     startAt: '序章',
+    chapters: true,
+    chapterPattern: /^(序章|第[零〇一二两三四五六七八九十]+章)$/,
   },
   {
     source: '三国心事.docx',
@@ -136,11 +139,12 @@ function classifyFadeinStyle(style) {
   return 'screenplay-action';
 }
 
-function parsePlainText(text, startAt) {
+function parsePlainText(text, startAt, skipLeading = []) {
   const lines = text.split('\n');
   const blocks = [];
   let pendingBlankLines = 0;
   let started = !startAt;
+  const skipped = new Set(skipLeading);
 
   for (const rawLine of lines) {
     const line = rawLine.trim();
@@ -154,6 +158,8 @@ function parsePlainText(text, startAt) {
       continue;
     }
 
+    if (!blocks.length && skipped.has(line)) continue;
+
     blocks.push({
       text: line,
       kind: 'plain',
@@ -163,6 +169,45 @@ function parsePlainText(text, startAt) {
   }
 
   return blocks;
+}
+
+function parsePlainSections(text, headingPattern, startAt) {
+  const lines = text.split('\n');
+  const sections = [];
+  let current = null;
+  let started = !startAt;
+  let pendingBlankLines = 0;
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!started) {
+      if (line === startAt) started = true;
+      else continue;
+    }
+
+    if (headingPattern.test(line)) {
+      current = { title: line, blocks: [] };
+      sections.push(current);
+      pendingBlankLines = 0;
+      continue;
+    }
+
+    if (!current) continue;
+
+    if (!line) {
+      if (current.blocks.length) pendingBlankLines += 1;
+      continue;
+    }
+
+    current.blocks.push({
+      text: line,
+      kind: 'plain',
+      blankLinesBefore: pendingBlankLines,
+    });
+    pendingBlankLines = 0;
+  }
+
+  return sections;
 }
 
 function parseFadein(text) {
@@ -203,7 +248,13 @@ function readBlocks(work) {
   }
 
   const text = work.format === 'rtf' ? readRtfText(filePath) : readOfficeText(filePath);
-  return parsePlainText(text, work.startAt);
+  return parsePlainText(text, work.startAt, work.skipLeading);
+}
+
+function readSections(work) {
+  const filePath = path.join(sourceDir, work.source);
+  const text = work.format === 'rtf' ? readRtfText(filePath) : readOfficeText(filePath);
+  return parsePlainSections(text, work.chapterPattern, work.startAt);
 }
 
 function renderBlocks(blocks) {
@@ -220,6 +271,7 @@ function renderBlocks(blocks) {
 }
 
 function renderPage(work, blocks) {
+  const description = work.hideDescription ? '' : `  <p class="lead">${escapeHtml(work.description)}</p>\n`;
   return `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -254,8 +306,7 @@ function renderPage(work, blocks) {
 
 <main class="page">
   <h2 class="section-title">${escapeHtml(work.title)}</h2>
-  <p class="lead">${escapeHtml(work.description)}</p>
-
+${description}
   <section class="project">
 ${renderBlocks(blocks)}
 
@@ -275,7 +326,155 @@ ${renderBlocks(blocks)}
 `;
 }
 
+function renderCollectionPage(work, sections) {
+  const items = sections
+    .map((section, index) => `      <li><a href="${work.slug}/fiction-${work.slug}-${index}.html">${escapeHtml(section.title)}</a></li>`)
+    .join('\n');
+
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${escapeHtml(work.title)} · Nordenbox</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600&display=swap" rel="stylesheet">
+  <meta name="description" content="${escapeHtml(work.title)} — Nordenbox 作品目录">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="masthead">
+    <h1 class="page-title">NORDENBOX</h1>
+  </div>
+  <nav class="site-nav">
+    <a href="../home.html">Home</a>
+    <span class="dot">·</span>
+    <a href="../essays.html">Essays</a>
+    <span class="dot">·</span>
+    <a href="../fictions.html" class="active">Fictions</a>
+    <span class="dot">·</span>
+    <a href="../podcasts.html">Podcasts</a>
+    <span class="dot">·</span>
+    <a href="../projects.html">Projects</a>
+    <span class="dot">·</span>
+    <a href="../about.html">About</a>
+  </nav>
+</header>
+
+<main class="page">
+  <h2 class="section-title">${escapeHtml(work.title)}</h2>
+  <p class="lead">${escapeHtml(work.description)}</p>
+
+  <section class="project">
+    <h3>章节目录</h3>
+    <ol>
+${items}
+    </ol>
+
+    <p style="margin-top: 2em;">
+      <a class="back-link" href="../fictions.html">← Back to Fictions</a>
+    </p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Nordenbox</p>
+</footer>
+<script defer src="../article-guard.js"></script>
+
+</body>
+</html>
+`;
+}
+
+function renderChapterPage(work, section, index, total) {
+  const previous = index > 0
+    ? `<a class="chapter-link" href="fiction-${work.slug}-${index - 1}.html">← ${escapeHtml('上一章')}</a>`
+    : '<span></span>';
+  const next = index + 1 < total
+    ? `<a class="chapter-link" href="fiction-${work.slug}-${index + 1}.html">${escapeHtml('下一章')} →</a>`
+    : '<span></span>';
+
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${escapeHtml(work.title)} · ${escapeHtml(section.title)} · Nordenbox</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600&display=swap" rel="stylesheet">
+  <meta name="description" content="${escapeHtml(work.title)} ${escapeHtml(section.title)}">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="masthead">
+    <h1 class="page-title">NORDENBOX</h1>
+  </div>
+  <nav class="site-nav">
+    <a href="../../home.html">Home</a>
+    <span class="dot">·</span>
+    <a href="../../essays.html">Essays</a>
+    <span class="dot">·</span>
+    <a href="../../fictions.html" class="active">Fictions</a>
+    <span class="dot">·</span>
+    <a href="../../podcasts.html">Podcasts</a>
+    <span class="dot">·</span>
+    <a href="../../projects.html">Projects</a>
+    <span class="dot">·</span>
+    <a href="../../about.html">About</a>
+  </nav>
+</header>
+
+<main class="page">
+  <h2 class="section-title">${escapeHtml(work.title)}</h2>
+  <p class="lead">${escapeHtml(section.title)}</p>
+
+  <section class="project">
+${renderBlocks(section.blocks)}
+  </section>
+
+  <nav class="chapter-nav" aria-label="章节导航">
+    ${previous}
+    <a class="chapter-link" href="../fiction-${work.slug}.html">目录</a>
+    ${next}
+  </nav>
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Nordenbox</p>
+</footer>
+<script defer src="../../article-guard.js"></script>
+
+</body>
+</html>
+`;
+}
+
 for (const work of works) {
+  if (work.chapters) {
+    const sections = readSections(work);
+    if (!sections.length || sections.some((section) => !section.blocks.length)) {
+      throw new Error(`No complete chapters extracted from ${work.source}`);
+    }
+
+    const chapterDir = path.join(outputDir, work.slug);
+    fs.mkdirSync(chapterDir, { recursive: true });
+    const collectionPath = path.join(outputDir, `fiction-${work.slug}.html`);
+    fs.writeFileSync(collectionPath, renderCollectionPage(work, sections), 'utf8');
+
+    sections.forEach((section, index) => {
+      const chapterPath = path.join(chapterDir, `fiction-${work.slug}-${index}.html`);
+      fs.writeFileSync(chapterPath, renderChapterPage(work, section, index, sections.length), 'utf8');
+    });
+
+    console.log(`${work.title}: ${sections.length} chapters -> ${collectionPath}`);
+    continue;
+  }
+
   const blocks = readBlocks(work);
   if (!blocks.length) throw new Error(`No text extracted from ${work.source}`);
   const outputPath = path.join(outputDir, `fiction-${work.slug}.html`);

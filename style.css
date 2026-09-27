@@ -67,19 +67,22 @@ p {
 }
 
 .project .screenplay-character {
-  margin: 1.2em 0 0.15em 10%;
+  max-width: 42%;
+  margin: 1.2em auto 0.15em;
   font-family: var(--font-sans);
   font-weight: 600;
 }
 
 .project .screenplay-parenthetical {
-  margin: 0.1em 12% 0.15em;
+  max-width: 48%;
+  margin: 0.1em auto 0.15em;
   font-style: italic;
 }
 
 .project .screenplay-dialogue {
-  margin-left: 10%;
-  margin-right: 10%;
+  max-width: 62%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project .screenplay-transition {
@@ -91,11 +94,13 @@ p {
 @media (max-width: 640px) {
   .project .screenplay-character,
   .project .screenplay-dialogue {
+    max-width: none;
     margin-left: 4%;
     margin-right: 4%;
   }
 
   .project .screenplay-parenthetical {
+    max-width: none;
     margin-left: 6%;
     margin-right: 6%;
   }

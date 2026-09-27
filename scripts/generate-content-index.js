@@ -39,6 +39,10 @@ const MANUAL_SECTIONS = {
   ],
 };
 
+const EXCERPT_OVERRIDES = {
+  'fictions/fiction-conjuring.html': '一位失意的心灵魔术师，受邀前往海边庄园调查一桩隐秘案件。',
+};
+
 function listHtmlFiles(dir) {
   const files = [];
   const stack = [dir];
@@ -130,7 +134,7 @@ function buildSectionEntries(key, label, includeFn) {
       const file = path.join(root, rel);
       const title = readMatch(file, /<h2 class="section-title">([\s\S]*?)<\/h2>/i) || readMatch(file, /<title>(.*?)\s*·\s*Nordenbox<\/title>/i);
       const href = rel;
-      const excerpt = excerptFromFile(file);
+      const excerpt = EXCERPT_OVERRIDES[rel] || excerptFromFile(file);
       const date = getFileDate(file);
       return {
         key,

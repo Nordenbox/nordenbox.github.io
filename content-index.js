@@ -6,7 +6,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "红尘",
       "href": "fictions/fiction-red-dust.html",
       "excerpt": "一部从火车站和河南小城展开的电影剧本。",
-      "date": "2026-09-27T13:48:45.266Z"
+      "date": "2026-09-27T14:11:09.696Z"
     },
     {
       "key": "fictions",
@@ -14,7 +14,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "战警之无悔",
       "href": "fictions/fiction-police-no-regrets.html",
       "excerpt": "一部以特警行动为背景的电影剧本。",
-      "date": "2026-09-27T13:48:45.260Z"
+      "date": "2026-09-27T14:11:09.689Z"
     },
     {
       "key": "fictions",
@@ -22,7 +22,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "Shame",
       "href": "fictions/fiction-shame.html",
       "excerpt": "A screenplay about a girl, memory, and the private violence hidden inside an ordinary home.",
-      "date": "2026-09-27T13:48:45.256Z"
+      "date": "2026-09-27T14:11:09.685Z"
     },
     {
       "key": "fictions",
@@ -30,7 +30,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "中央饭店",
       "href": "fictions/fiction-central-hotel.html",
       "excerpt": "电影剧本。北京，2016 年冬天，一座高级妇产医院和一间中央饭店。",
-      "date": "2026-09-27T13:48:45.252Z"
+      "date": "2026-09-27T14:11:09.682Z"
     },
     {
       "key": "fictions",
@@ -38,7 +38,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "未定名之红楼梦作品",
       "href": "fictions/fiction-untitled-dream-of-the-red-chamber.html",
       "excerpt": "以惜春等人物为中心，延伸红楼梦之后的故事。",
-      "date": "2026-09-27T13:48:44.130Z"
+      "date": "2026-09-27T14:11:08.718Z"
     },
     {
       "key": "fictions",
@@ -46,7 +46,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "三国心事",
       "href": "fictions/fiction-three-kingdoms-reflections.html",
       "excerpt": "从历史人物的内心出发，重新凝视乱世、权力、爱情与自我。",
-      "date": "2026-09-27T13:48:44.039Z"
+      "date": "2026-09-27T14:11:08.624Z"
     },
     {
       "key": "fictions",
@@ -54,15 +54,15 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "New Republic",
       "href": "fictions/fiction-new-republic.html",
       "excerpt": "一部从 2041 年的海上航行展开的长篇文学作品，写希望、混乱与虚荣。",
-      "date": "2026-09-27T13:48:43.958Z"
+      "date": "2026-09-27T14:11:08.538Z"
     },
     {
       "key": "fictions",
       "label": "Fictions",
-      "title": "Conjuring",
+      "title": "The Conjure",
       "href": "fictions/fiction-conjuring.html",
-      "excerpt": "A film treatment about a fallen mental magician who is asked to uncover a crime inside a secluded estate.",
-      "date": "2026-09-27T13:48:43.845Z"
+      "excerpt": "一位失意的心灵魔术师，受邀前往海边庄园调查一桩隐秘案件。",
+      "date": "2026-09-27T14:11:08.423Z"
     },
     {
       "key": "fictions",
@@ -70,7 +70,7 @@ window.NORDENBOX_CONTENT_INDEX = {
       "title": "A Kill From Heaven",
       "href": "fictions/fiction-a-kill-from-heaven.html",
       "excerpt": "电影剧本。一个小镇、一次秘密行动，以及逐渐逼近的危险。",
-      "date": "2026-09-27T13:48:43.757Z"
+      "date": "2026-09-27T14:11:08.415Z"
     },
     {
       "key": "fictions",
@@ -577,7 +577,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "红尘",
         "href": "fictions/fiction-red-dust.html",
         "excerpt": "一部从火车站和河南小城展开的电影剧本。",
-        "date": "2026-09-27T13:48:45.266Z"
+        "date": "2026-09-27T14:11:09.696Z"
       },
       {
         "key": "fictions",
@@ -585,7 +585,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "战警之无悔",
         "href": "fictions/fiction-police-no-regrets.html",
         "excerpt": "一部以特警行动为背景的电影剧本。",
-        "date": "2026-09-27T13:48:45.260Z"
+        "date": "2026-09-27T14:11:09.689Z"
       },
       {
         "key": "fictions",
@@ -593,7 +593,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "Shame",
         "href": "fictions/fiction-shame.html",
         "excerpt": "A screenplay about a girl, memory, and the private violence hidden inside an ordinary home.",
-        "date": "2026-09-27T13:48:45.256Z"
+        "date": "2026-09-27T14:11:09.685Z"
       },
       {
         "key": "fictions",
@@ -601,7 +601,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "中央饭店",
         "href": "fictions/fiction-central-hotel.html",
         "excerpt": "电影剧本。北京，2016 年冬天，一座高级妇产医院和一间中央饭店。",
-        "date": "2026-09-27T13:48:45.252Z"
+        "date": "2026-09-27T14:11:09.682Z"
       },
       {
         "key": "fictions",
@@ -609,7 +609,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "未定名之红楼梦作品",
         "href": "fictions/fiction-untitled-dream-of-the-red-chamber.html",
         "excerpt": "以惜春等人物为中心，延伸红楼梦之后的故事。",
-        "date": "2026-09-27T13:48:44.130Z"
+        "date": "2026-09-27T14:11:08.718Z"
       },
       {
         "key": "fictions",
@@ -617,7 +617,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "三国心事",
         "href": "fictions/fiction-three-kingdoms-reflections.html",
         "excerpt": "从历史人物的内心出发，重新凝视乱世、权力、爱情与自我。",
-        "date": "2026-09-27T13:48:44.039Z"
+        "date": "2026-09-27T14:11:08.624Z"
       },
       {
         "key": "fictions",
@@ -625,15 +625,15 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "New Republic",
         "href": "fictions/fiction-new-republic.html",
         "excerpt": "一部从 2041 年的海上航行展开的长篇文学作品，写希望、混乱与虚荣。",
-        "date": "2026-09-27T13:48:43.958Z"
+        "date": "2026-09-27T14:11:08.538Z"
       },
       {
         "key": "fictions",
         "label": "Fictions",
-        "title": "Conjuring",
+        "title": "The Conjure",
         "href": "fictions/fiction-conjuring.html",
-        "excerpt": "A film treatment about a fallen mental magician who is asked to uncover a crime inside a secluded estate.",
-        "date": "2026-09-27T13:48:43.845Z"
+        "excerpt": "一位失意的心灵魔术师，受邀前往海边庄园调查一桩隐秘案件。",
+        "date": "2026-09-27T14:11:08.423Z"
       },
       {
         "key": "fictions",
@@ -641,7 +641,7 @@ window.NORDENBOX_CONTENT_INDEX = {
         "title": "A Kill From Heaven",
         "href": "fictions/fiction-a-kill-from-heaven.html",
         "excerpt": "电影剧本。一个小镇、一次秘密行动，以及逐渐逼近的危险。",
-        "date": "2026-09-27T13:48:43.757Z"
+        "date": "2026-09-27T14:11:08.415Z"
       },
       {
         "key": "fictions",
