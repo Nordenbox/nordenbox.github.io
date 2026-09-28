@@ -56,6 +56,7 @@ const FICTION_FORMATS = {
   'fictions/fiction-lilie-2.html': 'screenplay',
   'fictions/fiction-the-funeral.html': 'screenplay',
   'fictions/fiction-warm-machine.html': 'literature',
+  'fictions/fiction-columbus-care-instructions.html': 'literature',
   'fictions/fiction-far-east-express.html': 'screenplay',
   'fictions/golden-fleece/fiction-golden-fleece.html': 'literature',
   'fictions/maiden-tiger/fiction-maiden-tiger.html': 'literature',

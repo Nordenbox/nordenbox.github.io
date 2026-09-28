@@ -58,6 +58,14 @@ const works = [
     format: 'office',
   },
   {
+    source: '关于哥伦布的养护说明.docx',
+    slug: 'columbus-care-instructions',
+    title: '关于哥伦布的养护说明',
+    description: '一封写给杰克的信，讲述哥伦布、盖亚与阿卡迪亚的故事。',
+    format: 'office',
+    maxBlankLines: 2,
+  },
+  {
     source: '远东特快剧本.fadein',
     slug: 'far-east-express',
     title: '远东特快',
@@ -193,11 +201,29 @@ function correctObviousTypos(text) {
     .replace(/生命总结在/g, '生命终结在');
 }
 
+function readSofficeText(filePath) {
+  const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'nordenbox-office-'));
+  try {
+    execFileSync(soffice, ['--headless', '--convert-to', 'txt:Text', '--outdir', tempDir, filePath], {
+      stdio: 'ignore',
+      timeout: 60_000,
+    });
+    const outputPath = path.join(tempDir, `${path.basename(filePath, path.extname(filePath))}.txt`);
+    return correctObviousTypos(normalizeText(fs.readFileSync(outputPath, 'utf8').replace(/^\uFEFF/, '')));
+  } finally {
+    fs.rmSync(tempDir, { recursive: true, force: true });
+  }
+}
+
 function readOfficeText(filePath) {
-  return correctObviousTypos(normalizeText(execFileSync('textutil', ['-convert', 'txt', '-stdout', filePath], {
-    encoding: 'utf8',
-    maxBuffer: 20 * 1024 * 1024,
-  })));
+  try {
+    return correctObviousTypos(normalizeText(execFileSync('textutil', ['-convert', 'txt', '-stdout', filePath], {
+      encoding: 'utf8',
+      maxBuffer: 20 * 1024 * 1024,
+    })));
+  } catch {
+    return readSofficeText(filePath);
+  }
 }
 
 function readRtfText(filePath) {
@@ -224,7 +250,7 @@ function classifyFadeinStyle(style) {
   return 'screenplay-action';
 }
 
-function parsePlainText(text, startAt, skipLeading = []) {
+function parsePlainText(text, startAt, skipLeading = [], maxBlankLines = Infinity) {
   const lines = text.split('\n');
   const blocks = [];
   let pendingBlankLines = 0;
@@ -239,7 +265,7 @@ function parsePlainText(text, startAt, skipLeading = []) {
     }
 
     if (!line) {
-      if (blocks.length) pendingBlankLines += 1;
+      if (blocks.length) pendingBlankLines = Math.min(pendingBlankLines + 1, maxBlankLines);
       continue;
     }
 
@@ -335,7 +361,7 @@ function readBlocks(work) {
   }
 
   const text = work.format === 'rtf' ? readRtfText(filePath) : readOfficeText(filePath);
-  return parsePlainText(text, work.startAt, work.skipLeading);
+  return parsePlainText(text, work.startAt, work.skipLeading, work.maxBlankLines);
 }
 
 function readSections(work) {
